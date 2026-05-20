@@ -37,6 +37,23 @@ function renderCell(value, sectionKey) {
     return <p className="text-sm text-ink/80">{value}</p>
   }
 
+  if (sectionKey === 'forTeachers' && typeof value === 'object' && !Array.isArray(value)) {
+    return (
+      <div className="space-y-3">
+        <p className="text-sm italic text-ink/80">{value.intro}</p>
+        <ul className="space-y-2 text-sm text-ink/80">
+          {value.points.map((point, i) => (
+            <li key={i}>
+              <span className="font-semibold text-ink">{point.title}</span>
+              {' — '}
+              <span>{point.body}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )
+  }
+
   if (sectionKey === 'signs' && !Array.isArray(value)) {
     return (
       <div className="space-y-3">

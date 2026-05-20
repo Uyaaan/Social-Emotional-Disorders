@@ -348,14 +348,36 @@ function DisorderChapter({ disorder, number }) {
         {/* {isEmpty(disorder.forTeachers) ? (<SectionBlock title="For future teachers" comingSoon />) : ( */}
         {!isEmpty(disorder.forTeachers) && (
           <SectionBlock title="For future teachers">
-            <blockquote
-              className={cn(
-                'border-l-2 pl-4 text-sm italic text-ink/75 sm:text-base',
-                cat === 'emotional' ? 'border-sage' : 'border-lavender'
-              )}
-            >
-              {firstSentences(disorder.forTeachers, 3)}
-            </blockquote>
+            {typeof disorder.forTeachers === 'string' ? (
+              <blockquote
+                className={cn(
+                  'border-l-2 pl-4 text-sm italic text-ink/75 sm:text-base',
+                  cat === 'emotional' ? 'border-sage' : 'border-lavender'
+                )}
+              >
+                {firstSentences(disorder.forTeachers, 3)}
+              </blockquote>
+            ) : (
+              <div className="space-y-4">
+                <blockquote
+                  className={cn(
+                    'border-l-2 pl-4 text-sm italic text-ink/75 sm:text-base',
+                    cat === 'emotional' ? 'border-sage' : 'border-lavender'
+                  )}
+                >
+                  {disorder.forTeachers.intro}
+                </blockquote>
+                <div className="space-y-3">
+                  {disorder.forTeachers.points.map((point, i) => (
+                    <div key={i} className="text-sm text-ink/80 sm:text-base">
+                      <span className="font-semibold text-ink">{point.title}</span>
+                      {' — '}
+                      <span>{point.body}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </SectionBlock>
         )}
         {/* )} */}

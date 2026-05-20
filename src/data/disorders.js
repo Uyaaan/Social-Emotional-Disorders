@@ -394,8 +394,28 @@ export const disorders = [
       { title: 'Portfolio assessment', body: 'Lower-pressure alternative to traditional testing.' },
       { title: 'Functional behavioral assessment', body: 'Identify triggers and contexts for compulsions.' },
     ],
-    forTeachers:
-      'Future teachers can support learners with OCD through inclusive, flexible, and compassionate approaches: integrating Social-Emotional Learning (SEL) to help students manage emotions and build self-awareness, developing positive mental-health awareness, learning the signs and effects of OCD, and running peer-understanding programs that promote empathy and acceptance among classmates.',
+    forTeachers: {
+      intro:
+        'Future teachers can better support learners with Obsessive-Compulsive Disorder (OCD) by adopting inclusive, flexible, and compassionate teaching approaches. These practices not only help students with OCD but also create a classroom environment that benefits all learners. Through approaches such as Universal Design for Learning (UDL), differentiated instruction, social-emotional learning, and trauma-informed teaching, educators can build classrooms that are structured, supportive, and emotionally safe. The following can help teachers become more effective in assisting students with OCD:',
+      points: [
+        {
+          title: 'Social-Emotional Learning (SEL)',
+          body: 'Integrating SEL practices into the classroom helps students manage emotions, develop coping strategies, and build self-awareness.',
+        },
+        {
+          title: 'Positive mental health awareness is developed',
+          body: 'Future teachers become more aware of the importance of mental health support in education, allowing them to better recognize student needs.',
+        },
+        {
+          title: 'Understanding OCD',
+          body: 'Teachers should learn the signs, symptoms, and effects of OCD on learning and behavior.',
+        },
+        {
+          title: 'Peer understanding program',
+          body: 'Promote awareness, empathy, and acceptance among classmates, creating a more supportive and inclusive classroom environment.',
+        },
+      ],
+    },
   },
 
   {
