@@ -6,9 +6,11 @@ function Footer() {
           End of presentation
         </p>
         <p className="mt-6 font-display text-lg font-bold text-ink sm:text-xl">
-          Social-Emotional Disorders
+          Eleven Minds
         </p>
-        <p className="mt-1 text-sm text-muted">A Visual Guide</p>
+        <p className="mt-1 text-sm text-muted">
+          A guide to social-emotional disorders
+        </p>
       </div>
     </footer>
   )

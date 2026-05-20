@@ -34,10 +34,10 @@ function Header() {
           className="group flex flex-col leading-tight transition-opacity hover:opacity-80"
         >
           <span className="font-display text-sm font-semibold tracking-tight sm:text-base">
-            Social-Emotional Disorders
+            Eleven Minds
           </span>
           <span className="text-[11px] font-normal text-muted sm:text-xs">
-            A visual guide
+            A guide to social-emotional disorders
           </span>
         </a>
         {showCounter ? (

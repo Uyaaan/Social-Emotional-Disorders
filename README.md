@@ -1,6 +1,6 @@
-# Social-Emotional Disorders: A Visual Guide
+# Eleven Minds
 
-A mobile-first, interactive infographic-style website that helps future teachers and education students understand the eleven social-emotional disorders most relevant to the classroom — what they look like, what helps, and how to plan inclusive lessons.
+A mobile-first, interactive presentation site that helps future teachers and education students understand the eleven social-emotional disorders most relevant to the classroom: what they look like, what helps, and how to plan inclusive lessons.
 
 ## Tech stack
 
