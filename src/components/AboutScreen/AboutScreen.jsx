@@ -1,0 +1,96 @@
+import { Link } from 'react-router-dom'
+import { ArrowRight } from 'lucide-react'
+
+const AUTHORS = [
+  { n: 'Jackie Lyn', r: 'Introduction · Emotional disorders' },
+  { n: 'Micka Remocaldo', r: 'Social disorders · Similarities & differences' },
+  { n: 'Janille Louise Amoguis', r: 'Anxiety · Panic · ASD' },
+  { n: 'Phomela Castroverde', r: 'Depression · Conduct Disorder' },
+  { n: 'Julia Clarisse Apo', r: 'Bipolar · ODD · RAD' },
+  { n: 'Pearl Jangad', r: 'OCD · PTSD' },
+]
+
+export default function AboutScreen() {
+  return (
+    <div className="mx-auto max-w-screen-sm px-4 pb-8 pt-5">
+      <h1 className="px-1 font-display text-[28px] font-bold leading-tight tracking-[-0.03em] text-ink">
+        About
+      </h1>
+      <p className="mb-4 mt-1.5 px-1 text-[13.5px] leading-relaxed text-ink-soft">
+        A field guide built for student teachers.
+      </p>
+
+      <div className="flex flex-col gap-4 rounded-3xl border border-border bg-surface p-4">
+        <Section title="Why this exists">
+          Future educators meet a wide range of minds in every class. This guide collects the
+          eleven social-emotional disorders most relevant to teacher training — what they look
+          like, how to support them, and where to read more.
+        </Section>
+
+        <Divider />
+
+        <Section title="How to use">
+          <ol className="m-0 list-decimal pl-5 text-[14px] leading-relaxed text-ink">
+            <li>Browse by category — emotional or social.</li>
+            <li>Search by symptom or strategy.</li>
+            <li>Tap a card to reveal Overview · Symptoms · Strategies · Materials.</li>
+            <li>Open the References page for full APA 7 citations.</li>
+          </ol>
+        </Section>
+
+        <Divider />
+
+        <div>
+          <div className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
+            Authors
+          </div>
+          <div className="flex flex-col gap-2.5">
+            {AUTHORS.map((p) => (
+              <div key={p.n} className="flex items-center gap-2.5">
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-accent font-display text-[13px] font-bold text-accent-fg">
+                  {p.n.split(' ').map((x) => x[0]).join('').slice(0, 2)}
+                </div>
+                <div className="min-w-0">
+                  <div className="text-[13.5px] font-semibold text-ink">{p.n}</div>
+                  <div className="text-[11.5px] text-ink-soft">{p.r}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      <Link
+        to="/disorders"
+        className="mt-4 flex items-center justify-center gap-1.5 rounded-2xl border border-border-strong px-4 py-3 text-[14px] font-semibold text-ink transition hover:bg-surface-alt"
+      >
+        Browse all disorders <ArrowRight size={15} aria-hidden="true" />
+      </Link>
+
+      <div className="mt-6 text-center text-[11px] leading-relaxed text-ink-soft">
+        Eleven Minds · A teaching resource
+        <br />
+        Content informed by DSM-5-TR and peer-reviewed sources.
+      </div>
+    </div>
+  )
+}
+
+function Section({ title, children }) {
+  return (
+    <div>
+      <div className="mb-1.5 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
+        {title}
+      </div>
+      {typeof children === 'string' ? (
+        <p className="m-0 text-[14px] leading-relaxed text-ink">{children}</p>
+      ) : (
+        children
+      )}
+    </div>
+  )
+}
+
+function Divider() {
+  return <div className="h-px bg-border" />
+}
