@@ -93,21 +93,6 @@ function OverviewTab({ d, a }) {
         </div>
       )}
 
-      <div className="grid grid-cols-2 gap-2">
-        <MiniStat label="Symptoms" n={d.symptoms?.length || 0} />
-        <MiniStat label="Strategies" n={d.strategies?.length || 0} />
-        <MiniStat label="Materials" n={d.instructionalMaterials?.length || 0} />
-        <MiniStat label="References" n={d.references?.length || 0} />
-      </div>
-    </div>
-  )
-}
-
-function MiniStat({ label, n }) {
-  return (
-    <div className="flex items-baseline justify-between rounded-2xl bg-surface-alt px-3 py-2.5">
-      <span className="text-[11px] uppercase tracking-wider text-ink-soft">{label}</span>
-      <span className="font-display text-[16px] font-bold text-ink">{n}</span>
     </div>
   )
 }
@@ -167,7 +152,7 @@ function MaterialsTab({ items, a }) {
   if (!items || items.length === 0) {
     return (
       <p className="rounded-2xl bg-surface-alt p-3 text-center text-[12.5px] text-ink-soft">
-        Materials for this disorder are still being curated.
+        No materials yet.
       </p>
     )
   }

@@ -52,12 +52,9 @@ export default function DisordersScreen() {
 
   return (
     <div className="mx-auto max-w-screen-sm px-4 pb-8 pt-5">
-      <h1 className="px-1 font-display text-[28px] font-bold leading-tight tracking-[-0.03em] text-ink">
+      <h1 className="mb-4 px-1 font-display text-[28px] font-bold leading-tight tracking-[-0.03em] text-ink">
         Disorders
       </h1>
-      <p className="mb-4 mt-1.5 px-1 text-[13.5px] leading-relaxed text-ink-soft">
-        Tap any card to expand. Search across symptoms, strategies, and materials.
-      </p>
 
       <div className="mb-3 flex items-center gap-2 rounded-2xl border border-border bg-surface px-3 py-2.5">
         <Search size={16} className="shrink-0 text-ink-soft" aria-hidden="true" />

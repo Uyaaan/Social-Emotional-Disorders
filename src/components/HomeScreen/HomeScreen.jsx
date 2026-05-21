@@ -18,17 +18,11 @@ export default function HomeScreen() {
   return (
     <div className="mx-auto flex max-w-screen-sm flex-col gap-6 px-5 pb-8 pt-6">
       <header>
-        <span className="mb-3 inline-flex items-center rounded-full bg-accent px-3 py-1 text-xs font-semibold text-accent-fg">
-          For future teachers
-        </span>
         <h1 className="font-display text-[2.25rem] font-bold leading-[1.05] tracking-[-0.04em] text-ink">
           The 11 minds<br />
           <span className="text-accent">you'll meet</span><br />
           in your classroom.
         </h1>
-        <p className="mt-3 text-[15px] leading-relaxed text-ink-soft">
-          A concise field guide to the social-emotional disorders future teachers most need to recognize, understand, and support — without the clutter.
-        </p>
       </header>
 
       <Link
