@@ -114,6 +114,11 @@ export default function HomeScreen() {
           ))}
         </div>
       </section>
+
+      <p className="pt-2 text-center text-[11px] leading-relaxed tracking-wide text-ink-soft">
+        A teaching resource by Jackie Lyn, Micka Remocaldo, Janille Louise Amoguis,
+        Phomela Castroverde, Julia Clarisse Apo &amp; Pearl Jangad
+      </p>
     </div>
   )
 }
