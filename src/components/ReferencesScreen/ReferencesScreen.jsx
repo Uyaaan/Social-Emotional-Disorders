@@ -71,10 +71,6 @@ export default function ReferencesScreen() {
           )
         })}
       </div>
-
-      <div className="mt-7 rounded-2xl bg-surface-alt p-3.5 text-center text-[12px] leading-relaxed text-ink-soft">
-        References ported from the Eleven Minds resource document and formatted in APA 7th edition.
-      </div>
     </div>
   )
 }
