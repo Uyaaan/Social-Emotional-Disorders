@@ -1027,7 +1027,8 @@ export const disorders = [
     ],
     instructionalMaterials: null,
     accommodations: null,
-    forTeachers: null,
+    forTeachers:
+      'Teachers should focus on creating a safe, structured, and supportive classroom environment. In creating a safe space for students, teachers should use calm communication and avoid harsh discipline or public embarrassment. Build a safe space and trusting relationship with students, and help them through a supportive classroom that includes social-emotional learning activities, clear and simple step-by-step instructions, and positive reinforcement and encouragement.',
   },
 ]
 
