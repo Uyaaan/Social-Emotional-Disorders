@@ -8,6 +8,7 @@ const TABS = [
   { id: 'symptoms', label: 'Symptoms' },
   { id: 'strategies', label: 'Strategies' },
   { id: 'materials', label: 'Materials' },
+  { id: 'assessment', label: 'Assessment' },
   { id: 'accommodations', label: 'Accommodations' },
   { id: 'forteachers', label: 'Teachers' },
 ]
@@ -21,7 +22,7 @@ export default function DisorderDetail({ d }) {
       <div
         role="tablist"
         aria-label={`${d.name} sections`}
-        className="scrollbar-hidden flex gap-0 overflow-x-auto border-b border-border bg-surface-alt/50 px-2 pt-1"
+        className="scrollbar-hidden flex gap-0 overflow-x-auto border-b border-border bg-surface-alt/50 px-1 pt-1"
       >
         {TABS.map((t) => {
           const active = tab === t.id
@@ -34,7 +35,7 @@ export default function DisorderDetail({ d }) {
               aria-controls={`tab-panel-${t.id}`}
               onClick={() => setTab(t.id)}
               className={
-                'whitespace-nowrap border-b-2 px-2.5 py-2.5 text-[12.5px] transition ' +
+                'whitespace-nowrap border-b-2 px-1.5 py-2.5 text-[11px] transition ' +
                 (active
                   ? 'border-accent font-semibold text-ink'
                   : 'border-transparent font-medium text-ink-soft hover:text-ink')
@@ -51,27 +52,10 @@ export default function DisorderDetail({ d }) {
         {tab === 'symptoms' && <AccordionList items={d.symptoms} a={a} kind="symptoms" />}
         {tab === 'strategies' && <AccordionList items={d.strategies || []} a={a} kind="strategies" />}
         {tab === 'materials' && <MaterialsTab items={d.instructionalMaterials || []} a={a} />}
-        {tab === 'accommodations' &&
-          (d.assessment ? (
-            <div className="flex flex-col gap-4">
-              <div>
-                <h4 className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
-                  Assessment
-                </h4>
-                <div className="rounded-2xl border border-border bg-surface p-4">
-                  <p className="text-[14px] leading-relaxed text-ink">{d.assessment}</p>
-                </div>
-              </div>
-              <div>
-                <h4 className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
-                  Accommodations
-                </h4>
-                <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
-              </div>
-            </div>
-          ) : (
-            <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
-          ))}
+        {tab === 'assessment' && <AssessmentTab assessment={d.assessment} />}
+        {tab === 'accommodations' && (
+          <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
+        )}
         {tab === 'forteachers' && <ForTeachersTab forTeachers={d.forTeachers} a={a} />}
       </div>
     </div>
@@ -179,6 +163,21 @@ function AccordionList({ items, a, kind }) {
           </div>
         )
       })}
+    </div>
+  )
+}
+
+function AssessmentTab({ assessment }) {
+  if (!assessment) {
+    return (
+      <p className="rounded-2xl bg-surface-alt p-3 text-center text-[12.5px] text-ink-soft">
+        No assessment notes yet.
+      </p>
+    )
+  }
+  return (
+    <div className="rounded-2xl border border-border bg-surface p-4">
+      <p className="text-[14px] leading-relaxed text-ink">{assessment}</p>
     </div>
   )
 }
