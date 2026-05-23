@@ -2,12 +2,12 @@ import { Link } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 
 const AUTHORS = [
-  { n: 'Jackie Lyn', r: 'Introduction · Emotional disorders' },
-  { n: 'Micka Remocaldo', r: 'Social disorders · Similarities & differences' },
-  { n: 'Janille Louise Amoguis', r: 'Anxiety · Panic · ASD' },
-  { n: 'Phomela Castroverde', r: 'Depression · Conduct Disorder' },
-  { n: 'Julia Clarisse Apo', r: 'Bipolar · ODD · RAD' },
-  { n: 'Pearl Jangad', r: 'OCD · PTSD' },
+  { n: 'Jackie-Lyn I. Borromeo', r: 'Introduction · Emotional disorders' },
+  { n: 'Micka Bless B. Remocaldo', r: 'Social disorders · Similarities & differences' },
+  { n: 'Janille Louise Y. Amoguis', r: 'Anxiety · Panic · ASD' },
+  { n: 'Phomela Marie R. Castroverde', r: 'Depression · Conduct Disorder' },
+  { n: 'Julia Clarisse G. Apo', r: 'Bipolar · ODD · RAD' },
+  { n: 'Thrizia Pearl J. Borongan', r: 'OCD · PTSD' },
 ]
 
 export default function AboutScreen() {
@@ -37,7 +37,10 @@ export default function AboutScreen() {
             {AUTHORS.map((p) => (
               <div key={p.n} className="flex items-center gap-2.5">
                 <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-accent font-display text-[13px] font-bold text-accent-fg">
-                  {p.n.split(' ').map((x) => x[0]).join('').slice(0, 2)}
+                  {(() => {
+                    const parts = p.n.split(' ')
+                    return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase()
+                  })()}
                 </div>
                 <div className="min-w-0">
                   <div className="text-[13.5px] font-semibold text-ink">{p.n}</div>

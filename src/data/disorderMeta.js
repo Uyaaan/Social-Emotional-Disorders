@@ -21,6 +21,7 @@ export const disorderMeta = {
     illo: 'rain',
     references: [
       'Mayo Clinic. (2026, March 14). Depression (major depressive disorder)—Symptoms and causes. https://www.mayoclinic.org/diseases-conditions/depression/symptoms-causes/syc-20356007',
+      'World Health Organization: WHO & World Health Organization: WHO. (2025, August 29). Depressive disorder (depression). https://www.who.int/news-room/fact-sheets/detail/depression',
     ],
   },
   bipolar: {
@@ -80,6 +81,7 @@ export const disorderMeta = {
     illo: 'jag',
     references: [
       'Cleveland Clinic. (2025, December 16). Conduct disorder. https://my.clevelandclinic.org/health/diseases/23924-conduct-disorder',
+      'Sagar, R., Patra, B., & Patil, V. (2019). Clinical practice guidelines for the management of conduct disorder. Indian Journal of Psychiatry, 61(8), 270. https://doi.org/10.4103/psychiatry.indianjpsychiatry_539_18',
     ],
   },
   odd: {
