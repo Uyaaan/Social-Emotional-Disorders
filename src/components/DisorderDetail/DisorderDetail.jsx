@@ -8,6 +8,8 @@ const TABS = [
   { id: 'symptoms', label: 'Symptoms' },
   { id: 'strategies', label: 'Strategies' },
   { id: 'materials', label: 'Materials' },
+  { id: 'accommodations', label: 'Accommodations' },
+  { id: 'forteachers', label: 'For Teachers' },
 ]
 
 export default function DisorderDetail({ d }) {
@@ -49,6 +51,10 @@ export default function DisorderDetail({ d }) {
         {tab === 'symptoms' && <AccordionList items={d.symptoms} a={a} kind="symptoms" />}
         {tab === 'strategies' && <AccordionList items={d.strategies || []} a={a} kind="strategies" />}
         {tab === 'materials' && <MaterialsTab items={d.instructionalMaterials || []} a={a} />}
+        {tab === 'accommodations' && (
+          <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
+        )}
+        {tab === 'forteachers' && <ForTeachersTab forTeachers={d.forTeachers} a={a} />}
       </div>
     </div>
   )
@@ -135,6 +141,51 @@ function AccordionList({ items, a, kind }) {
           </div>
         )
       })}
+    </div>
+  )
+}
+
+function ForTeachersTab({ forTeachers, a }) {
+  if (!forTeachers) {
+    return (
+      <p className="rounded-2xl bg-surface-alt p-3 text-center text-[12.5px] text-ink-soft">
+        No teacher guidance listed yet.
+      </p>
+    )
+  }
+
+  if (typeof forTeachers === 'string') {
+    return (
+      <blockquote className="border-l-2 border-border-strong pl-4 text-[14px] leading-relaxed italic text-ink">
+        {forTeachers}
+      </blockquote>
+    )
+  }
+
+  return (
+    <div className="flex flex-col gap-3.5">
+      <blockquote className="border-l-2 border-border-strong pl-4 text-[14px] leading-relaxed italic text-ink">
+        {forTeachers.intro}
+      </blockquote>
+      <div className="flex flex-col gap-2">
+        {forTeachers.points.map((p, i) => (
+          <div key={i} className="rounded-2xl border border-border bg-surface p-3">
+            <div className="flex items-center gap-2.5">
+              <span
+                className={`inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-md font-display text-[11.5px] font-bold ${a.bg} ${a.fg}`}
+              >
+                {i + 1}
+              </span>
+              <div className="text-[13.5px] font-semibold text-ink">{p.title}</div>
+            </div>
+            {p.body && (
+              <div className="mt-1.5 pl-[2.1rem] text-[12.5px] leading-relaxed text-ink-soft">
+                {p.body}
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
     </div>
   )
 }
