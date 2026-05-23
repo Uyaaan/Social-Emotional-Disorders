@@ -51,9 +51,9 @@ export default function DisorderDetail({ d }) {
         {tab === 'symptoms' && <AccordionList items={d.symptoms} a={a} kind="symptoms" />}
         {tab === 'strategies' && <AccordionList items={d.strategies || []} a={a} kind="strategies" />}
         {tab === 'materials' && <MaterialsTab items={d.instructionalMaterials || []} a={a} />}
-        {tab === 'accommodations' && (
-          <div className="flex flex-col gap-4">
-            {d.assessment && (
+        {tab === 'accommodations' &&
+          (d.assessment ? (
+            <div className="flex flex-col gap-4">
               <div>
                 <h4 className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
                   Assessment
@@ -62,15 +62,16 @@ export default function DisorderDetail({ d }) {
                   <p className="text-[14px] leading-relaxed text-ink">{d.assessment}</p>
                 </div>
               </div>
-            )}
-            <div>
-              <h4 className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
-                Accommodations
-              </h4>
-              <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
+              <div>
+                <h4 className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
+                  Accommodations
+                </h4>
+                <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
+              </div>
             </div>
-          </div>
-        )}
+          ) : (
+            <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
+          ))}
         {tab === 'forteachers' && <ForTeachersTab forTeachers={d.forTeachers} a={a} />}
       </div>
     </div>
