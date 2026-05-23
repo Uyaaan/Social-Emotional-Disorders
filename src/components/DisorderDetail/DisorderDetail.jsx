@@ -80,16 +80,7 @@ function OverviewTab({ d, a }) {
           <h4 className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
             Types
           </h4>
-          <ul className="flex flex-wrap gap-1.5">
-            {d.types.map((t) => (
-              <li
-                key={t.title}
-                className="rounded-full bg-surface-alt px-2.5 py-1 text-[11.5px] font-medium text-ink"
-              >
-                {t.title}
-              </li>
-            ))}
-          </ul>
+          <AccordionList items={d.types} a={a} kind="types" />
         </div>
       )}
 

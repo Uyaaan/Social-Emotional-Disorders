@@ -129,8 +129,62 @@ export const disorders = [
         body: 'Depressive episodes alternate with manic symptoms such as euphoria or irritability, increased energy, talkativeness, racing thoughts, decreased need for sleep, distractibility, and impulsive behavior.',
       },
     ],
-    signs: null,
-    strategies: null,
+    signs: [
+      {
+        title: 'Sadness, tearfulness, emptiness, or hopelessness',
+        body: "A persistent low mood that doesn't lift with usual coping.",
+      },
+      {
+        title: 'Loss of interest or pleasure in most or all normal activities',
+        body: 'Activities once enjoyed feel flat or pointless.',
+      },
+      {
+        title: 'Sleep disturbances',
+        body: 'Insomnia or sleeping too much.',
+      },
+      {
+        title: 'Tiredness and lack of energy',
+        body: 'Even small tasks take extra effort.',
+      },
+      {
+        title: 'Reduced appetite and weight loss, or increased cravings and weight gain',
+        body: '',
+      },
+      {
+        title: 'Anxiety, agitation, or restlessness',
+        body: '',
+      },
+      {
+        title: 'Feelings of worthlessness or guilt',
+        body: 'Fixating on past failures or self-blame.',
+      },
+      {
+        title: 'Trouble thinking, concentrating, deciding, and remembering',
+        body: '',
+      },
+    ],
+    strategies: [
+      {
+        title: 'Daily emotional check-in',
+        body: "Monitor the learner's emotional state regularly in a safe, nonjudgmental way. Students with depression often feel alone, sad, and empty — a check-in helps them feel noticed and supported without being forced to speak publicly.",
+      },
+      {
+        title: 'Break tasks into small, achievable goals',
+        body: 'Reduce overwhelming academic pressure by breaking work into steps (e.g., an essay split into 4 parts). Smaller goals raise confidence and productivity when motivation is low.',
+      },
+      {
+        title: 'Reflection and journaling activities',
+        body: 'Give students a prompt ("What made you smile today?", "What is something difficult you overcame?") and let them write a reflection. Helps process emotions and build self-awareness.',
+      },
+      {
+        title: 'Peer support activities',
+        body: 'Cooperative games and collaboration with classmates and teachers help build healthy peer relationships and reduce feelings of isolation.',
+      },
+      {
+        title: 'Creative expression activities',
+        body: 'Drawing, poetry writing, music, dancing, and other arts provide safe emotional expression and relaxation. Freedom of choice enhances a sense of control and reduces stress.',
+      },
+    ],
     instructionalMaterials: [
       { title: 'Mood check-in charts', body: '' },
       { title: 'Reflection journals', body: '' },
@@ -138,8 +192,26 @@ export const disorders = [
       { title: 'Social-emotional learning (SEL) materials', body: '' },
       { title: 'Storybooks discussing emotions and resilience', body: '' },
     ],
-    accommodations: null,
-    forTeachers: null,
+    accommodations: [
+      {
+        title: 'Preferential seating',
+        body: 'Allow students to sit in an area that is comfortable for them.',
+      },
+      {
+        title: 'Extra time on quizzes and exams',
+        body: 'Helps the student avoid feeling overwhelmed or pressured. Pair with a quiet environment away from distractions.',
+      },
+      {
+        title: 'Chunking',
+        body: 'Use a step-by-step process and divide activities little by little.',
+      },
+      {
+        title: 'Attendance flexibility',
+        body: 'Allow the student to be absent and make up missed work when depressive symptoms prevent them from completing it.',
+      },
+    ],
+    forTeachers:
+      'Future teachers should understand that students with depression need empathy, patience, encouragement, and emotional support. Teachers can promote emotional well-being, create inclusive classrooms, improve student engagement, and support both academic and personal growth.',
   },
 
   {
@@ -718,7 +790,16 @@ export const disorders = [
       'A pattern of aggressive behavior and rule-breaking that harms others and violates social norms.',
     definition:
       'Conduct Disorder (CD) is a mental health condition affecting children and teens, characterized by a consistent pattern of aggressive behaviors and actions that harm others. Children with conduct disorder often violate rules and societal norms, and may struggle with empathy, remorse, or taking responsibility.',
-    types: null,
+    types: [
+      {
+        title: 'Socialized conduct disorder',
+        body: 'Children make friends, who usually also behave in an antisocial way. Relationships with adults may be good, but there are often difficulties with authority figures.',
+      },
+      {
+        title: 'Unsocialized conduct disorder',
+        body: "These children don't have friends because they are rejected by peers, and some choose to isolate themselves and stay alone.",
+      },
+    ],
     signs: [
       {
         title: 'Aggression toward people and animals',
@@ -737,7 +818,24 @@ export const disorders = [
         body: 'And avoiding responsibility for poor performance.',
       },
     ],
-    strategies: null,
+    strategies: [
+      {
+        title: 'Token reward system',
+        body: 'Positive reinforcement by giving points, stars, or tokens for following directions, completing work, or showing respectful behavior. Helps learners repeat good behavior.',
+      },
+      {
+        title: 'Clear rules and expectations',
+        body: 'Students with conduct disorder respond better when expectations are predictable and clearly explained.',
+      },
+      {
+        title: 'Check-in / check-out system',
+        body: 'Monitor behavior consistently throughout the day. Check in the morning and observe what went well at the end. Builds accountability and teacher-student trust.',
+      },
+      {
+        title: 'Calm-down corner',
+        body: 'A designated area with coloring sheets or emotion charts where students can calm themselves. Helps manage emotions before behaviors escalate.',
+      },
+    ],
     instructionalMaterials: [
       { title: 'Educational games', body: '' },
       { title: 'Manipulatives and learning kits', body: '' },
@@ -745,8 +843,42 @@ export const disorders = [
       { title: 'Group activity materials', body: '' },
       { title: 'Science experiments and practical activities', body: '' },
     ],
-    accommodations: null,
-    forTeachers: null,
+    accommodations: [
+      {
+        title: 'Behavioral rating scales (CBCL)',
+        body: 'The Child Behavior Checklist quantifies the frequency of symptoms and helps gauge whether classroom behavior is mild or severe.',
+      },
+      {
+        title: 'Use of ICT',
+        body: 'Students with conduct disorder often work well on computers with active, interactive programs.',
+      },
+      {
+        title: 'Clear instructions',
+        body: 'Break tasks into smaller steps to avoid escalating emotions or behavior.',
+      },
+      {
+        title: 'Offering choices',
+        body: 'Let students choose what to do next instead of receiving direct commands. Freedom of choice reduces defiance.',
+      },
+    ],
+    forTeachers: {
+      intro:
+        'Future teachers should understand that students with conduct disorder need guidance, patience, and positive support. Through effective classroom management and strong relationships, teachers can help students improve their behavior.',
+      points: [
+        {
+          title: 'Build positive teacher-student relationships',
+          body: 'Students with conduct disorder often struggle with trust and authority. Positive relationships can reduce aggressive or oppositional behavior.',
+        },
+        {
+          title: 'Use positive reinforcement',
+          body: 'Positive attention encourages students to repeat appropriate behavior.',
+        },
+        {
+          title: 'Provide structured routines',
+          body: 'Structure reduces confusion, frustration, and impulsive reactions.',
+        },
+      ],
+    },
   },
 
   {
@@ -917,6 +1049,16 @@ export const disorders = [
     ],
     strategies: [
       {
+        title: 'Chunking',
+        body: 'Break large projects into small, "bite-sized" tasks with individual deadlines.',
+      },
+      {
+        title: 'The "Rule of Three"',
+        body: 'Give no more than three instructions at a time, and ask the student to paraphrase them back.',
+      },
+    ],
+    instructionalMaterials: [
+      {
         title: 'Visual organizers',
         body: 'Graphic organizers, color-coded folders, and visual schedules help students map out their day and thoughts.',
       },
@@ -928,16 +1070,7 @@ export const disorders = [
         title: 'Manipulatives',
         body: 'Fidget tools (used as tools, not toys), stress balls, or standing desks channel movement productively.',
       },
-      {
-        title: 'Chunking',
-        body: 'Break large projects into small, "bite-sized" tasks with individual deadlines.',
-      },
-      {
-        title: 'The "Rule of Three"',
-        body: 'Give no more than three instructions at a time, and ask the student to paraphrase them back.',
-      },
     ],
-    instructionalMaterials: null,
     accommodations: [
       {
         title: 'Setting',

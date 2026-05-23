@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react'
 
 const AUTHORS = [
   { n: 'Jackie-Lyn I. Borromeo', r: 'Introduction · Emotional disorders · ADHD' },
-  { n: 'Micka Bless B. Remocaldo', r: 'Social disorders · Similarities & differences' },
+  { n: 'Micka Bless B. Remocaldo', r: 'Social disorders · Similarities & differences · RAD' },
   { n: 'Janille Louise Y. Amoguis', r: 'Anxiety · Panic · ASD' },
   { n: 'Phomela Marie R. Castroverde', r: 'Depression · Conduct Disorder' },
   { n: 'Julia Clarisse G. Apo', r: 'Bipolar · ODD · RAD' },

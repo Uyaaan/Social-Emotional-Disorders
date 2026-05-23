@@ -236,15 +236,15 @@ function DisorderModal({ disorder, open, onClose, onCompare }) {
                   title="Types"
                   count={disorder.types.length}
                 >
-                  <div className="space-y-3">
+                  <div>
                     {disorder.types.map((item, i) => (
-                      <div key={i} className="text-sm text-ink/80 sm:text-base">
-                        {item.title ? (
-                          <span className="font-semibold text-ink">{item.title}</span>
-                        ) : null}
-                        {item.title && item.body ? <span> — </span> : null}
-                        {item.body ? <span>{item.body}</span> : null}
-                      </div>
+                      <ExpandableStep
+                        key={i}
+                        number={String(i + 1).padStart(2, '0')}
+                        title={item.title}
+                        body={item.body}
+                        category={cat}
+                      />
                     ))}
                   </div>
                 </DisorderSection>
