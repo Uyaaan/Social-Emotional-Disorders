@@ -8,7 +8,6 @@ const TABS = [
   { id: 'symptoms', label: 'Symptoms' },
   { id: 'strategies', label: 'Strategies' },
   { id: 'materials', label: 'Materials' },
-  { id: 'assessment', label: 'Assessment' },
   { id: 'accommodations', label: 'Accommodations' },
   { id: 'forteachers', label: 'Teachers' },
 ]
@@ -52,9 +51,15 @@ export default function DisorderDetail({ d }) {
         {tab === 'symptoms' && <AccordionList items={d.symptoms} a={a} kind="symptoms" />}
         {tab === 'strategies' && <AccordionList items={d.strategies || []} a={a} kind="strategies" />}
         {tab === 'materials' && <MaterialsTab items={d.instructionalMaterials || []} a={a} />}
-        {tab === 'assessment' && <AssessmentTab assessment={d.assessment} />}
         {tab === 'accommodations' && (
-          <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
+          <div className="flex flex-col gap-3.5">
+            {d.assessment && (
+              <div className="rounded-2xl border border-border bg-surface p-4">
+                <p className="text-[14px] leading-relaxed text-ink">{d.assessment}</p>
+              </div>
+            )}
+            <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
+          </div>
         )}
         {tab === 'forteachers' && <ForTeachersTab forTeachers={d.forTeachers} a={a} />}
       </div>
@@ -163,21 +168,6 @@ function AccordionList({ items, a, kind }) {
           </div>
         )
       })}
-    </div>
-  )
-}
-
-function AssessmentTab({ assessment }) {
-  if (!assessment) {
-    return (
-      <p className="rounded-2xl bg-surface-alt p-3 text-center text-[12.5px] text-ink-soft">
-        No assessment notes yet.
-      </p>
-    )
-  }
-  return (
-    <div className="rounded-2xl border border-border bg-surface p-4">
-      <p className="text-[14px] leading-relaxed text-ink">{assessment}</p>
     </div>
   )
 }
