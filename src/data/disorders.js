@@ -81,6 +81,8 @@ export const disorders = [
       },
     ],
     instructionalMaterials: null,
+    assessment:
+      "Assessments should not only focus on a student's academics but also check on their emotional comfort and ability to participate in class. Use creative formative assessments — sketchnoting, role-play skits, or infographic creations — instead of relying on traditional high-pressure tests. Flexible deadlines and alternative ways of presenting outputs help reduce anxiety while letting students demonstrate understanding in their own way.",
     accommodations: [
       {
         title: 'Conduct a "Kamustahan" session before lessons',
@@ -354,6 +356,8 @@ export const disorders = [
         body: 'Allows short emotional regulation breaks when feeling overwhelmed.',
       },
     ],
+    assessment:
+      'Assessing a student with bipolar disorder calls for tools that account for the mood cycle. Functional Behavioral Assessments identify triggers and early warning signs, while comprehensive evaluations capture cognitive, emotional, and behavioral functioning — so supports can flex with depressive or manic phases.',
     accommodations: [
       {
         title: 'Functional Behavioral Assessment (FBA)',
@@ -566,6 +570,8 @@ export const disorders = [
         body: 'Stress balls, fidget toys, or textured stickers help ease body tension and shift focus to physical sensations.',
       },
     ],
+    assessment:
+      "Assessments should focus on the student's understanding and participation without raising stress. Self-reflective activities — journals, group work, self-assessment checklists, and scenario-based performances — let students engage while feeling emotionally safe. These build confidence and help students complete tasks without feeling overwhelmed or triggered.",
     accommodations: [
       {
         title: 'Lecture accessibility',
@@ -1071,6 +1077,8 @@ export const disorders = [
         body: 'Fidget tools (used as tools, not toys), stress balls, or standing desks channel movement productively.',
       },
     ],
+    assessment:
+      'Testing can be particularly stressful for students with ADHD. Tailoring the testing environment helps them demonstrate their actual knowledge through adjustments to setting (quiet room, preferential seating), timing (extended time, supervised breaks), response format (oral answers, computer for essays), and formatting (fewer items per page, larger fonts, highlighted keywords).',
     accommodations: [
       {
         title: 'Setting',
@@ -1185,6 +1193,7 @@ export const sectionLabels = {
   signs: 'Common Signs & Symptoms',
   strategies: 'Strategies',
   instructionalMaterials: 'Instructional Materials',
-  accommodations: 'Assessment & Accommodations',
+  assessment: 'Assessment',
+  accommodations: 'Accommodations',
   forTeachers: 'How This Helps Future Teachers',
 }
