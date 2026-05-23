@@ -8,105 +8,105 @@ export const disorders = [
     category: 'emotional',
     tagline:
       "The body's natural response to perceived stress and threat. When worry becomes constant, it becomes a disorder.",
-    definition:
-      "Anxiety is a natural response to perceived stress and threat. It is a feeling of unease, nervousness, worry, or fear about what is happening or might happen, and it activates the body's fight-or-flight response. Anxiety disorders are mental health diagnoses characterized by excessive worry, intense fear, and irrational behaviors that negatively affect everyday decisions and lifestyle.",
+    definition: `It refers to the natural human response to perceived stress and threat. It's a feeling of unease, nervousness, worry, and fear about something that is happening or might happen in the future. Most people experience anxiety from time to time, including speaking, communicating, and simply making decisions. This is our body's "fight or flight" response that helps individuals to react quickly to potential threats. Anxiety can arise from various life events or circumstances, including school stress, relationship conflicts, or financial situations. In some cases, anxiety can become a constant feeling even without the presence of stress or threat.
+
+However, in terms of anxiety disorders—these are mental health diagnoses that are characterized by excessive worriness, intense fear, and irrational behaviours that negatively affect everyday decisions and lifestyles.`,
     types: [
       {
         title: 'Generalized Anxiety Disorder',
-        body: 'Frequent, excessive, and uncontrollable worry about everyday things like school, family, health, and the future. Anxiety lasts longer than expected and interferes with daily activities.',
+        body: 'A condition characterized by its frequent, excessive, and uncontrollable worry about everyday things—situations such as school, family, health, and future events. The anxiety may last longer than expected which can interfere with daily activities.',
       },
       {
         title: 'Agoraphobia',
-        body: 'Intense fear of being in places where help may be hard to get during a panic episode. People often avoid crowded places, public transport, or even leaving home.',
+        body: 'A condition that causes an intense fear of being in places where it may be difficult to get some help during intense panic or anxiety. People with this kind of phobia often avoid crowded places, public transportations, unfamiliar situations, or even leaving their homes due to feeling discomfort and fear.',
       },
       {
         title: 'Social Anxiety Disorder',
-        body: 'Intense fear of social interactions and being judged by others. Speaking in class, meeting new people, or performing can feel overwhelming.',
+        body: 'This involves intense fear of social interactions and being judged by others. Individuals with this kind of anxiety may feel extremely anxious when speaking in class, meeting new people, or performing in front of a lot of people. This fear can negatively affect the way they communicate, expressing themselves, and forming relationships.',
       },
       {
         title: 'Specific Phobias',
-        body: 'Intense fears of particular objects, activities, or situations that pose no real danger, like darkness, needles, blood, or spiders. People avoid the feared trigger because it causes extreme anxiety.',
+        body: 'These phobias refer to various intense fears of particular objects, activities, or situations that usually pose no real danger to them. It includes fear of darkness, needles, blood, or spiders. They tend to avoid the feared objects or situation because it causes them to feel extremely anxious around it.',
       },
       {
         title: 'Panic Disorder',
-        body: 'Characterized by sudden, repeated panic attacks of intense fear that may include rapid heartbeat, dizziness, sweating, and difficulty breathing. Attacks are unexpected and trigger fear of more attacks.',
+        body: 'This is characterized by sudden or repeated panic attacks. A panic attack refers to a sudden feeling of intense fear that may include rapid heartbeat, dizziness, sweating, and difficulty in breathing. These attacks are unexpected and may cause a person to feel scared that another attack may occur.',
       },
     ],
     signs: {
       'Emotional / Cognitive': [
         {
           title: 'Trouble concentrating or making decisions',
-          body: 'Overthinking even simple situations, easily distracted by "what if" thoughts.',
+          body: `People with anxiety are prone to overthinking even simple situations. They may become easily distracted and struggle to maintain focus because their minds are filled with constant "what if's" thoughts. As a result, making decisions may become overwhelming for them, since they grow a fear of judgment or facing negative outcomes.`,
         },
         {
-          title: 'Feeling impatient or irritable',
-          body: 'The body stays in a state of alertness, lowering tolerance for everyday stress.',
+          title: 'Feeling Impatient or Irritable',
+          body: 'People with anxiety often become easily annoyed, impatient, and unable to relax because their body remains in the state of alertness. They are often overstimulated with emotions, which lowers their tolerance for handling stress and makes them react more on something they used to shrug off or handle calmly.',
         },
       ],
       Physical: [
         {
-          title: 'Nausea or abdominal distress',
-          body: 'Stress hormones disrupt digestion and create physical tension.',
+          title: 'Prone to nausea or abdominal distress',
+          body: 'Anxiety does not only affect the mind, but it also influences the body. It can cause stomachaches, cramps, and discomfort in the abdomen, especially during stressful events. This happens because the stress hormones are disrupting the normal digestion and creating physical tension in the body',
         },
         {
-          title: 'Sweating, trembling, or shaking',
-          body: 'Adrenaline prepares the body to respond to perceived threats.',
+          title: 'Sweating, Trembling, or Shaking',
+          body: `When a person feels anxious, they tend to react as if they are facing danger. They are activating their "fight and flight" response that leads to excessive sweating, trembling hands, and stuttering. These physical reactions are caused by the adrenaline, which prepares the body in responding to perceived threats.`,
         },
         {
-          title: 'Trouble sleeping',
-          body: 'Racing thoughts keep the body awake, and lack of sleep worsens anxiety in a cycle.',
+          title: 'Trouble Sleeping',
+          body: 'Anxiety can make it difficult for a person to fall asleep. The constant worrying and racing thoughts may keep a person awake and active at night, preventing them from having a proper rest. Lack of sleep can worsen anxiety, creating a cycle that affects both mental and physical health.',
         },
       ],
     },
     strategies: [
       {
-        title: 'Break tasks into smaller, manageable parts',
-        body: 'Lets students focus on one thing at a time so the work feels finishable.',
+        title: 'Breaking tasks into smaller and manageable parts',
+        body: 'This will make the work feel easier to finish because it allows students to focus on one thing at a time.',
       },
       {
-        title: 'Give clear instructions and classroom rules',
-        body: 'Organized directions help students feel secure when they know what to expect.',
+        title: 'Giving clear instructions and classroom rules',
+        body: 'By explaining directions in an organized manner, students may feel secure if they know what to be expected from them.',
       },
       {
-        title: 'Provide positive reinforcement and acknowledgement',
-        body: 'Encouragement, praise, and recognition build confidence and motivation.',
+        title: 'Providing positive reinforcement and acknowledgement',
+        body: "Encouragement, praise, and simple recognition helps build a child's confidence and motivation.",
       },
       {
-        title: 'Create a comfortable, supportive classroom environment',
-        body: 'A calm, inclusive room helps students feel emotionally belonging and acknowledged.',
+        title: 'Creating a comfortable and supportive classroom environment',
+        body: 'A calm, supportive, and inclusive classroom environment ensures students feel emotionally belonging and acknowledged.',
       },
       {
-        title: 'Allow short breaks during activities',
-        body: 'Brief pauses give students time to breathe, relax, and regain focus.',
+        title: 'Allowing short breaks during activities',
+        body: 'Allowing short breaks during activities gives students a time to breath, relax, calm, and regain focus',
       },
     ],
     instructionalMaterials: null,
-    assessment:
-      "Assessments should not only focus on a student's academics but also check on their emotional comfort and ability to participate in class. Use creative formative assessments — sketchnoting, role-play skits, or infographic creations — instead of relying on traditional high-pressure tests. Flexible deadlines and alternative ways of presenting outputs help reduce anxiety while letting students demonstrate understanding in their own way.",
+    assessment: `Assessments should not only focus on a student's academics, but also check on their emotional comfort and ability to participate in class. Teachers may use creative formative assessments such as sketchnoting, role-play skits, or infographic creations instead of relying on the traditional high-pressure assessments. Flexible deadlines and alternative ways of presenting outputs are recommended for these students, especially in reducing anxiety and demonstrating an understanding of the lessons through different practices.`,
     accommodations: [
       {
-        title: 'Conduct a "Kamustahan" session before lessons',
-        body: "A simple check-in lets students express how they're feeling at the moment.",
+        title: 'Conducting a "Kamustahan" session before the actual lessons',
+        body: "with simple check-in sessions, it allows students to express how they're feeling at the moment.",
       },
       {
-        title: 'Guide learners through creative assessments',
-        body: 'Alternative formats (sketchnoting, role-play, infographics) let students show understanding without high-pressure tests.',
+        title: 'Guiding learners through creative assessments',
+        body: 'Creative assessments provides students with alternative ways in showcasing their understanding without relying only on traditional formatives.',
       },
       {
-        title: 'Implement breaks when students feel uncomfortable',
-        body: 'Short breaks allow students to calm themselves and regain emotional control.',
+        title: 'Implementing breaks when students feel uncomfortable',
+        body: 'Short breaks allow students to feel calm themselves, be comfortable, and regain emotional control.',
       },
       {
-        title: 'Reduce workloads without removing learning objectives',
-        body: 'Adjusting the amount of work prevents overwhelm while keeping goals intact.',
+        title: 'Reduced Workloads without removing the learning objectives',
+        body: 'Adjusting the amount of work prevents students from becoming overwhelmed and stressed while still ensuring that the learning objectives are achieved.',
       },
       {
-        title: 'Arrange tables in student-centered set-ups',
-        body: 'Circles or U-shapes create a more supportive, less intimidating atmosphere.',
+        title: 'Arranging tables into comfortable and student-centered set-ups',
+        body: 'Student-centered set-ups, such as circles or u-shaped can create a more supportive environment and less intimidating atmosphere for students.',
       },
     ],
     forTeachers:
-      'Understanding anxiety helps teachers anticipate learning difficulties and prepare accommodations suited to student needs. Lesson plans can be designed to reduce stress, promote active participation, and build inclusive routines with adjustable assessments and clear instructions. This improves classroom management and learning outcomes for everyone.',
+      'Teachers learning about anxiety is essential to anticipate possible learning difficulties and prepare advanced accommodations that are suitable for their learning needs. Understanding anxiety helps them to create a lesson plan that is emotionally supportive, student-centered, and more inclusive. By considering the needs of anxious learners, teachers may design activities that reduce stress, promote engagement, and active participation in class. They can also implement a lesson with adjustable assessments, clear instructions, and proper classroom routines that will benefit all the learners. Effective lesson planning for students with anxiety improves classroom management, strengthens teaching strategies, and promotes better outcomes.',
   },
 
   {
@@ -115,76 +115,62 @@ export const disorders = [
     category: 'emotional',
     tagline:
       'A common mental disorder involving a depressed mood or loss of interest in activities for long periods.',
-    definition:
-      'Depressive disorder (depression) is a common mental disorder involving a persistently depressed mood or loss of pleasure and interest in activities. It differs from regular mood changes, and it can affect relationships, school, and work. Depression can happen to anyone, especially after abuse, severe losses, or stressful events.',
+    definition: `Depressive disorder (also known as depression) is a common mental disorder. It involves a depressed mood or loss of pleasure or interest in activities for long periods of time.
+
+Depression is different from regular mood changes and feelings about everyday life. It can affect all aspects of life, including relationships with family, friends and community. It can result from or lead to problems at school and at work.
+
+Depression can happen to anyone. People who have lived through abuse, severe losses or other stressful events are more likely to develop depression. Women are more likely to have depression than men.`,
     types: [
       {
-        title: 'Single-Episode Depressive Disorder',
-        body: "The person's first and only depressive episode.",
+        title: 'Single Episode Depressive Disorder',
+        body: "the person's first and only episode;",
       },
       {
-        title: 'Recurrent Depressive Disorder',
-        body: 'A history of at least two depressive episodes.',
+        title: 'Recurrent Episode Depressive Disorder',
+        body: 'the person has a history of at least two depressive episodes; and',
       },
       {
         title: 'Bipolar Disorder',
-        body: 'Depressive episodes alternate with manic symptoms such as euphoria or irritability, increased energy, talkativeness, racing thoughts, decreased need for sleep, distractibility, and impulsive behavior.',
+        body: 'depressive episodes alternate with periods of manic symptoms, which include euphoria or irritability, increased activity or energy, and other symptoms such as increased talkativeness, racing thoughts, increased self-esteem, decreased need for sleep, distractibiity, and impulsive reckless behaviour.',
       },
     ],
     signs: [
+      { title: 'Feelings of sadness, tearfulness, emptiness or hopelessness', body: '' },
+      { title: 'Loss of interest or pleasure in most or all normal activities', body: '' },
+      { title: 'Sleep disturbances, including insomnia or sleeping too much', body: '' },
+      { title: 'Tiredness and lack of energy, so even small tasks take extra effort', body: '' },
       {
-        title: 'Sadness, tearfulness, emptiness, or hopelessness',
-        body: "A persistent low mood that doesn't lift with usual coping.",
-      },
-      {
-        title: 'Loss of interest or pleasure in most or all normal activities',
-        body: 'Activities once enjoyed feel flat or pointless.',
-      },
-      {
-        title: 'Sleep disturbances',
-        body: 'Insomnia or sleeping too much.',
-      },
-      {
-        title: 'Tiredness and lack of energy',
-        body: 'Even small tasks take extra effort.',
-      },
-      {
-        title: 'Reduced appetite and weight loss, or increased cravings and weight gain',
+        title:
+          'Reduced appetite and weight loss or increased cravings for food and weight gain',
         body: '',
       },
+      { title: 'Anxiety, agitation or restlessness', body: '' },
       {
-        title: 'Anxiety, agitation, or restlessness',
+        title: 'Feelings of worthlessness or guilt, fixating on past failures or self-blame',
         body: '',
       },
-      {
-        title: 'Feelings of worthlessness or guilt',
-        body: 'Fixating on past failures or self-blame.',
-      },
-      {
-        title: 'Trouble thinking, concentrating, deciding, and remembering',
-        body: '',
-      },
+      { title: 'Trouble thinking, concentrating, making decisions and remembering things', body: '' },
     ],
     strategies: [
       {
-        title: 'Daily emotional check-in',
-        body: "Monitor the learner's emotional state regularly in a safe, nonjudgmental way. Students with depression often feel alone, sad, and empty — a check-in helps them feel noticed and supported without being forced to speak publicly.",
+        title: 'Daily Emotional Check-in',
+        body: "This helps to monitor the learner's emotional state regularly in a safe and nonjudgemental way. Students with depression feel alone, sad, and emptiness and as teachers, we can help them feel not to be alone. They will feel noticed and supported without being forced to speak publicly.",
       },
       {
-        title: 'Break tasks into small, achievable goals',
-        body: 'Reduce overwhelming academic pressure by breaking work into steps (e.g., an essay split into 4 parts). Smaller goals raise confidence and productivity when motivation is low.',
+        title: 'Break Tasks into Small Achievable Goals',
+        body: 'This strategy can help students to reduce overwhelming academic pressure. For example, they can write an essay by breaking it down into 4 steps. Students with depression may struggle with motivation and energy. Smaller goals increase confidence and productivity.',
       },
       {
-        title: 'Reflection and journaling activities',
-        body: 'Give students a prompt ("What made you smile today?", "What is something difficult you overcame?") and let them write a reflection. Helps process emotions and build self-awareness.',
+        title: 'Reflection and Journaling Activities',
+        body: `The teacher will give students a question (e.g "What made you smile today?", "What is something difficult you overcome?") and students will write their reflection about the given question. It helps them to process emotions and build self-awareness.`,
       },
       {
-        title: 'Peer support activities',
-        body: 'Cooperative games and collaboration with classmates and teachers help build healthy peer relationships and reduce feelings of isolation.',
+        title: 'Peer Support Activities',
+        body: 'Collaboration with classmates and teachers conducting cooperative games helps students to have healthy peer relationships and reduce feelings of isolation.',
       },
       {
-        title: 'Creative expression activities',
-        body: 'Drawing, poetry writing, music, dancing, and other arts provide safe emotional expression and relaxation. Freedom of choice enhances a sense of control and reduces stress.',
+        title: 'Creative Expression Activities',
+        body: 'Teachers can let students express themselves creatively through art like drawing, poetry writing, music, dancing, etc. These activities provide safe emotional expression and relaxation. It also gives students a freedom of choice to enhance their sense of control and reduces stress.',
       },
     ],
     instructionalMaterials: [
@@ -194,26 +180,27 @@ export const disorders = [
       { title: 'Social-emotional learning (SEL) materials', body: '' },
       { title: 'Storybooks discussing emotions and resilience', body: '' },
     ],
+    assessment: null,
     accommodations: [
       {
         title: 'Preferential seating',
         body: 'Allow students to sit in an area that is comfortable for them.',
       },
       {
-        title: 'Extra time on quizzes and exams',
-        body: 'Helps the student avoid feeling overwhelmed or pressured. Pair with a quiet environment away from distractions.',
+        title: 'Provide extra time to answer quizzes or exams',
+        body: 'This helps the student to not feel overwhelmed and pressured. Provide a classroom environment that is quiet and away from distractions when taking an exam or quiz.',
       },
       {
         title: 'Chunking',
-        body: 'Use a step-by-step process and divide activities little by little.',
+        body: 'Teachers need to make a step by step process of the activities or dividing the activities little by little.',
       },
       {
-        title: 'Attendance flexibility',
-        body: 'Allow the student to be absent and make up missed work when depressive symptoms prevent them from completing it.',
+        title: 'Attendance',
+        body: 'allowing the student to be absent in class and make up for their missing works or activities due to depressive symptoms that make the student unable to complete their work.',
       },
     ],
     forTeachers:
-      'Future teachers should understand that students with depression need empathy, patience, encouragement, and emotional support. Teachers can promote emotional well-being, create inclusive classrooms, improve student engagement, and support both academic and personal growth.',
+      'Future teachers should understand students with depression need empathy, patience, encouragement, and emotional support. They can support them by promoting emotional well-being, create inclusive classrooms, improve student engagement, and support both academic and personal growth.',
   },
 
   {
@@ -222,174 +209,197 @@ export const disorders = [
     category: 'emotional',
     tagline:
       'A mental health condition causing extreme mood swings between emotional highs (mania) and lows (depression).',
-    definition:
-      'Bipolar disorder, formerly called manic depression, is a mental health condition that causes extreme mood swings. These include emotional highs known as mania or hypomania, and lows known as depression. Hypomania is a milder, manageable version of mania. Severe mania is serious and often needs hospital care.',
+    definition: `Bipolar disorder, formerly called manic depression, is a mental health condition that causes extreme mood swings. These include emotional highs, also known as mania or hypomania, and lows, also known as depression.
+
+Hypomania is a milder version of mania that typically lasts for a shorter period of time, it can be manageable, and a person can usually continue their daily activities and it will not be badly affected.
+
+While Mania on the other hand can significantly impact a person's ability to do their daily activities, it can cause disruption and a person can completely stop their activities. Severe mania is very serious and it often needs to be treated in hospitals.`,
     types: [
       {
         title: 'Bipolar I Disorder',
-        body: 'The most severe type. Involves episodes of full mania that significantly affect daily life. Depressive episodes may or may not occur.',
+        body: "This is considered the most severe type of bipolar disorder because it involves episodes of full mania that can greatly affect a person's daily life and functioning. A person with Bipolar I Disorder may or may not also experience depressive episodes.",
       },
       {
         title: 'Bipolar II Disorder',
-        body: 'A less severe form, with periods of hypomania (less intense than full mania) alternating with periods of depression.',
+        body: 'Unlike Bipolar I Disorder, Bipolar II is considered a less severe type. A person experiences periods of hypomania, which is an abnormally elevated mood that is less intense than full mania. These episodes usually alternate with periods of depression.',
       },
       {
         title: 'Cyclothymia',
-        body: 'The mildest form, with frequent mood swings over a long period that do not reach the severity of full mania or major depression.',
+        body: 'Among the different types of bipolar disorder, Cyclothymia is considered the mildest form. It is characterized by frequent mood swings over a long period of time, although the symptoms do not reach the severity of full mania or major depression.',
       },
     ],
     signs: {
       'Mania / Hypomania': [
         {
-          title: 'Increased energy',
-          body: 'Unusually high energy, restlessness, appearing tireless.',
+          title: 'Increased Energy',
+          body: 'A person or student experiencing mania or hypomania may show unusually high levels of energy and enthusiasm. They may appear restless, overactive, and tireless.',
         },
         {
-          title: 'Extreme happiness or euphoria',
-          body: 'Intense excitement or optimism even without clear reason.',
+          title: 'Extreme Happiness or Euphoria',
+          body: 'They may experience intense happiness, excitement, or optimism even without a clear reason.',
         },
         {
-          title: 'Reduced need for sleep',
-          body: 'Feeling refreshed on little rest.',
+          title: 'Reduced Need for Sleep',
+          body: 'Due to excessive energy and activity, they may feel like they do not need much sleep and still feel refreshed.',
         },
         {
-          title: 'Rapid, excessive talking',
-          body: 'Fast speech, jumping between topics, racing thoughts.',
+          title: 'Rapid and Excessive Talking',
+          body: 'They may talk very fast, speak excessively, and quickly switch from one topic to another because of racing thoughts.',
         },
         {
-          title: 'Difficulty concentrating',
-          body: 'Thoughts move too quickly to focus on one task.',
+          title: 'Difficulty Concentrating',
+          body: 'Their thoughts may move too quickly, making it hard for them to focus on one task or idea.',
         },
         {
-          title: 'Impulsive behavior',
-          body: 'Acting or deciding without weighing consequences.',
+          title: 'Impulsive Behavior',
+          body: 'They may act or make decisions without carefully thinking about the possible consequences.',
         },
       ],
       'Bipolar Depression': [
         {
-          title: 'Persistent sadness',
-          body: 'Feeling empty, hopeless, or emotionally unstable most of the time.',
+          title: 'Persistent Sadness',
+          body: 'A person or student may feel sad, empty, hopeless, or emotionally unstable most of the time.',
         },
         {
-          title: 'Loss of interest in activities once enjoyed',
-          body: '',
+          title: 'Loss of Interest in Activities',
+          body: 'They may lose interest or enjoyment in activities they usually like doing.',
         },
         {
-          title: 'Noticeable changes in weight or appetite',
-          body: '',
+          title: 'Changes in Weight or Appetite',
+          body: 'They may experience noticeable weight loss or gain without a clear reason.',
         },
         {
-          title: 'Sleep disturbances',
-          body: 'Insomnia or hypersomnia.',
+          title: 'Sleep Disturbances',
+          body: 'They may have difficulty sleeping (insomnia) or sleep excessively (hypersomnia).',
         },
         {
-          title: 'Low energy or fatigue',
-          body: 'Even without physical exertion.',
+          title: 'Low Energy or Fatigue',
+          body: 'They may constantly feel tired or lack energy even without doing physical activities.',
         },
         {
-          title: 'Feelings of worthlessness, guilt, or helplessness',
-          body: '',
+          title: 'Feelings of Worthlessness',
+          body: 'They may experience guilt, loneliness, helplessness, or feelings of worthlessness.',
         },
         {
-          title: 'Difficulty focusing',
-          body: 'Forgetfulness from overwhelming negative thoughts.',
+          title: 'Difficulty Focusing',
+          body: 'They may become forgetful or have trouble concentrating because they are overwhelmed by negative thoughts and emotions.',
         },
         {
-          title: 'Suicidal thoughts or attempts',
-          body: 'May occur in some individuals.',
+          title: 'Suicidal Thoughts or Attempts',
+          body: 'Some individuals may experience thoughts of self-harm or suicide.',
         },
         {
-          title: 'Self-harming behaviors',
-          body: 'May emerge in severe cases.',
+          title: 'Self-Harming Behaviors',
+          body: 'In some cases, they may engage in behaviors that intentionally cause harm to themselves.',
         },
       ],
     },
     strategies: [
       {
         title: 'Flexibility',
-        body: "Adjust lessons and activities based on the student's mood, behavior, and pace.",
+        body: "Lessons and activities should be adjusted based on the student's mood, behavior, and learning pace.",
       },
       {
         title: 'Consistency',
-        body: 'Predictable routines and clear expectations help students feel secure.',
+        body: 'Predictable routines and clear expectations help students feel secure and manage their behavior effectively.',
       },
       {
         title: 'Patience',
-        body: 'Respond with understanding and positive reinforcement to support emotional and academic growth.',
+        body: "Responding with understanding and positive reinforcement supports the student's emotional and academic growth.",
       },
       {
         title: 'Communication',
-        body: 'Regular contact with parents and professionals keeps support consistent.',
+        body: 'Regular communication with parents and professionals helps provide consistent support for the student.',
       },
       {
-        title: 'Coping strategies',
-        body: 'Teach techniques like deep breathing, mindfulness, or journaling to manage emotions.',
+        title: 'Coping Strategies',
+        body: 'Teaching coping techniques such as deep breathing, mindfulness, or journaling can help students manage emotions and reduce stress.',
       },
       {
-        title: 'Praise and encouragement',
-        body: 'Recognition of achievements builds confidence, motivation, and self-esteem.',
+        title: 'Praise and Encouragement',
+        body: "Positive reinforcement and recognition of achievements help build the student's confidence, motivation, and self-esteem.",
       },
       {
-        title: 'Education and awareness',
-        body: 'Promote understanding of bipolar disorder among peers and family to create a supportive environment.',
+        title: 'Education and Awareness',
+        body: 'Understanding bipolar disorder and promoting awareness among teachers, family members, and peers helps create a more supportive and accepting environment.',
       },
     ],
     instructionalMaterials: [
       {
-        title: 'Visual schedule or routine chart',
-        body: 'Helps students follow predictable daily routines and reduce stress from sudden changes.',
+        title: 'Visual Schedule or Routine Chart',
+        body: 'Helps students follow predictable daily routines and reduce stress caused by sudden changes.',
       },
       {
-        title: 'Behavior monitoring or mood tracker',
-        body: 'Used to monitor emotional changes, triggers, and early warning signs.',
+        title: 'Behavior Monitoring or Mood Tracker',
+        body: 'Used to monitor emotional changes, triggers, and warning signs of depressive or manic episodes.',
       },
       {
-        title: 'Step-by-step task checklists',
-        body: 'Breaks large assignments into smaller tasks to support focus and organization.',
+        title: 'Step-by-Step Task Checklists',
+        body: 'Breaks large assignments into smaller, manageable tasks to support focus and organization.',
       },
       {
-        title: 'Modified assessment materials',
-        body: 'Shortened activities, flexible deadlines, or alternative formats to accommodate mood-related difficulties.',
+        title: 'Modified Assessment Materials',
+        body: 'Includes shortened activities, flexible deadlines, or alternative task formats to accommodate mood-related difficulties.',
       },
       {
-        title: 'Calm-down or break pass',
-        body: 'Allows short emotional regulation breaks when feeling overwhelmed.',
+        title: 'Calm Down or Break Pass',
+        body: 'Allows students to take short emotional regulation breaks when feeling overwhelmed or overstimulated.',
       },
     ],
     assessment:
-      'Assessing a student with bipolar disorder calls for tools that account for the mood cycle. Functional Behavioral Assessments identify triggers and early warning signs, while comprehensive evaluations capture cognitive, emotional, and behavioral functioning — so supports can flex with depressive or manic phases.',
+      "There's a different ways on how we will accommodate and assess a student with Bipolar Disorder, but here are the some of the things that you can do as a Teacher:",
     accommodations: [
       {
         title: 'Functional Behavioral Assessment (FBA)',
-        body: 'Identifies triggers and warning signs to monitor emotional and behavioral changes.',
+        body: 'Identifying triggers and warning signs helps monitor emotional and behavioral changes commonly associated with bipolar disorder.',
       },
       {
-        title: 'Comprehensive evaluation',
-        body: 'Assesses cognitive, emotional, and behavioral functioning to determine appropriate supports.',
+        title: 'Comprehensive Evaluation',
+        body: 'Assessing cognitive, emotional, and behavioral functioning helps determine appropriate supports for students with bipolar disorder.',
       },
       {
-        title: 'Flexible assessment formats',
-        body: 'Alternative tasks and shorter assessments reduce stress and accommodate mood-related difficulties.',
+        title: 'Flexible Assessment Formats',
+        body: 'Alternative tasks and shorter assessments help reduce stress and accommodate mood-related difficulties that may affect performance.',
       },
       {
-        title: 'Scheduling and time management',
-        body: 'Extended deadlines, additional testing time, and adjusted schedules support students during episodes.',
+        title: 'Scheduling & Time Management',
+        body: 'Extended deadlines, additional testing time, and adjusted schedules help support students during depressive or manic episodes.',
       },
       {
-        title: 'Classroom environment adjustments',
-        body: 'Quiet testing areas, break passes, and strategic seating help minimize stress and improve focus.',
+        title: 'Classroom Environment',
+        body: 'Quiet testing areas, break passes, and strategic seating help minimize stress and improve focus for students with bipolar disorder.',
       },
       {
-        title: 'Executive function support',
-        body: 'Notes, check-ins, and step-by-step instructions help with organization and task completion.',
+        title: 'Executive Function Support',
+        body: 'Notes, check-ins, and step-by-step instructions help students manage organization, attention, and task completion difficulties.',
       },
       {
-        title: 'Health and medication needs',
-        body: 'Access to snacks, hydration, and crisis support helps address medication side effects.',
+        title: 'Health & Medication Needs',
+        body: 'Access to snacks, hydration, and crisis support helps address medication side effects and emotional regulation needs associated with bipolar disorder.',
       },
     ],
-    forTeachers:
-      'Knowing your students deeply helps you handle their needs and supports inclusivity. Understanding bipolar disorder helps teachers recognize manic episodes (not mistaking them for hyperactivity), manage mood fluctuations, reduce stress-triggered episodes through structured environments, and support students during depressive periods with empathy and flexible expectations.',
+    forTeachers: {
+      intro:
+        'As a teacher, knowing your students deeply gives you a better understanding of how to handle their needs and promotes inclusivity by being open and prepared to support students with disorders such as bipolar disorder. Understanding students with bipolar disorder helps teachers:',
+      points: [
+        {
+          title: 'Recognize Manic Episodes',
+          body: 'Helps teachers identify behaviors associated with manic episodes and prevents them from mistaking these symptoms for simple hyperactivity or misbehavior.',
+        },
+        {
+          title: 'Manage Mood Fluctuations',
+          body: 'Bipolar disorder involves sudden emotional highs and lows that may affect classroom behavior and participation. Understanding these changes helps teachers respond appropriately and provide proper support.',
+        },
+        {
+          title: 'Reduce Stress-Triggered Episodes',
+          body: 'Understanding possible triggers allows teachers to create a calmer, more structured, and supportive classroom environment.',
+        },
+        {
+          title: 'Support Students During Depressive Episodes',
+          body: 'Helps teachers recognize symptoms such as withdrawal, low motivation, sadness, fatigue, and difficulty completing tasks, while encouraging emotional support and flexible academic expectations during depressive periods.',
+        },
+      ],
+    },
   },
 
   {
@@ -399,76 +409,71 @@ export const disorders = [
     tagline:
       'Obsessive-Compulsive Disorder. Unwanted intrusive thoughts that drive repetitive compulsive behaviors.',
     definition:
-      'Obsessive-Compulsive Disorder (OCD) involves recurring unwanted thoughts (obsessions) that lead to repetitive behaviors (compulsions). These obsessions and compulsions interfere with daily activities and cause significant distress. OCD often centers on themes like contamination, harm, symmetry, intrusive thoughts, or hoarding. The compulsive acts bring no pleasure, only limited, temporary relief from anxiety.',
+      'Obsessive- Compulsive Disorder is medically referred by other names, most notably the Obsessive-Compulsive Neurosis, Anankastic Neurosis, or simply Anankastic Disorder. Scrupulosity is also known as OCD, especially in older medical texts. It was also referred to as a form of anxiety or categorized by a specific religious or moral obsessions—it is also a feature pattern of OCD. These obsessions lead to repetitive behaviors, also called compulsions. These obsessions and compulsions get in the way of daily activities and cause a lot of distress. OCD often centers around certain themes, such as being overly fearful of getting contaminated by germs. Ultimately, you feel driven to do compulsive acts to ease the stress.',
     types: [
       {
         title: 'Contamination and Cleaning',
-        body: 'Obsessions: intense fear of germs. Compulsions: excessive hand washing or cleaning rituals.',
+        body: 'Obsessions: Intense fear of germs. Compulsions: Excessive hand washing.',
       },
       {
         title: 'Fear of Harm and Checking',
-        body: 'Obsessions: fear that harm will come to self or others through negligence. Compulsions: repeatedly checking locks, appliances, or mentally reviewing events.',
+        body: 'Obsessions: Fear that harm will come to yourself or others due to negligence. Compulsions: Repeatedly returning to check locks, appliances, or switches, or mentally reviewing events to ensure no disaster occurred.',
       },
       {
         title: 'Symmetry, Perfectionism, and Ordering',
-        body: 'Obsessions: discomfort when things aren\'t "just right." Compulsions: arranging objects precisely or repeating actions until they feel perfectly done.',
+        body: `Obsessions: An uncomfortable feeling that objects are not aligned properly or that things aren't "just right". Compulsions: Arranging objects in a very precise, symmetrical, or specific order, or repeating an action until it feels perfectly executed.`,
       },
       {
         title: 'Intrusive Thoughts (Taboo or Aggressive)',
-        body: 'Obsessions: disturbing unwanted thoughts about violence, taboo subjects, or moral/religious fears. Compulsions: often mental ("Pure O"), such as silent praying or avoidance.',
+        body: `Obsessions: Disturbing, unwanted thoughts centered around violence, taboo sexual subjects, or blasphemous religious/moral fears. Compulsions: it is often referred to as "Pure O". Silent praying to neutralize thoughts, or avoiding certain people and places.`,
       },
       {
         title: 'Hoarding',
-        body: 'Obsessions: fear that discarding objects will lead to harm or regret. Compulsions: difficulty throwing anything away.',
+        body: 'Obsessions: Fear that discarding objects will lead to harm, or regret. Compulsions: Difficulty throwing anything away.',
       },
     ],
     signs: [
       {
-        title: 'Obsessions',
-        body: 'Lasting, unwanted thoughts, urges, or images that intrude when trying to think or do other things.',
+        title: 'Obsession',
+        body: "OCD obsessions are lasting and unwanted thoughts that keep coming back or urges or images that are intrusive and cause distress or anxiety. You might try to ignore them or get rid of them by acting based on ritual. These obsessions usually intrude when you're trying to think of or do other things.",
       },
       {
-        title: 'Compulsions',
-        body: 'Repetitive behaviors or mental acts performed to reduce anxiety or prevent something bad from happening.',
-      },
-      {
-        title: 'Self-imposed rules or rituals',
-        body: 'Made up to control anxiety, often unrelated to the issue they are intended to fix.',
-      },
-      {
-        title: 'Significant distress or time loss',
-        body: 'Interference with daily activities.',
+        title: 'Compulsion',
+        body: `OCD compulsions are repetitive behaviors that you feel driven to do. These repetitive behaviors or mental acts are meant to reduce anxiety related to your obsessions or prevent something bad from happening. But taking part in the compulsions brings no pleasure and may offer only limited relief from anxiety.
+
+You may make up rules or rituals to follow that help control your anxiety when you're having obsessive thoughts. These compulsions are beyond reason and often don't relate to the issue they're intended to fix.`,
       },
     ],
     strategies: [
       {
-        title: "The 4 R's (Schwartz's Brain Lock method)",
-        body: 'A cognitive-behavioral technique to recognize intrusive thoughts and compulsions as medical symptoms rather than personal truths.',
+        title: "The 4R's",
+        body: `a widely used cognitive behavioral technique developed by psychiatrist Dr. Jeffrey Schwartz as part of his "Brain Lock" method. It is to recognize intrusive thoughts and compulsions as medical symptoms rather than personal truths.`,
       },
       {
-        title: 'Simple instructions and visual organizers',
-        body: 'Reduces confusion and helps students organize tasks, lowering anxiety caused by uncertainty.',
+        title: 'Simple instructions and visual organizer',
+        body: 'Simple directions reduce confusion and the visual helps students organize tasks and reduce anxiety caused by uncertainty.',
       },
       {
         title: 'Simplified tasks',
-        body: 'Make simple tasks even simpler to prevent feelings of overwhelm.',
+        body: 'make the simple task even simpler, to prevent the feeling of overwhelm.',
       },
       {
         title: 'Flexible deadlines',
-        body: 'Students with OCD may take longer due to compulsive checking or re-doing.',
+        body: 'allowing extra time because students with OCD may take longer to do the task.',
       },
       {
         title: 'Audiobooks and alternatives',
-        body: 'Audio recordings prevent students from getting stuck re-reading a passage perfectly.',
+        body: 'providing audio recordings of reading materials to prevent students from getting stuck on reading a single passage perfectly.',
       },
     ],
     instructionalMaterials: null,
+    assessment: null,
     accommodations: [
-      { title: 'Seating arrangement', body: 'Position the student where focus is easiest.' },
-      { title: 'Access to counseling', body: 'Regular sessions for emotional support.' },
-      { title: 'Classroom observation', body: 'Track patterns over time to refine support.' },
-      { title: 'Portfolio assessment', body: 'Lower-pressure alternative to traditional testing.' },
-      { title: 'Functional behavioral assessment', body: 'Identify triggers and contexts for compulsions.' },
+      { title: 'Seating Arrangement', body: '' },
+      { title: 'Access to counseling', body: '' },
+      { title: 'Classroom observation', body: '' },
+      { title: 'Portfolio assessment', body: '' },
+      { title: 'Functional Behavioral', body: '' },
     ],
     forTeachers: {
       intro:
@@ -488,7 +493,7 @@ export const disorders = [
         },
         {
           title: 'Peer understanding program',
-          body: 'Promote awareness, empathy, and acceptance among classmates, creating a more supportive and inclusive classroom environment.',
+          body: 'promote awareness, empathy, and acceptance among classmates, creating a more supportive and inclusive classroom environment.',
         },
       ],
     },
@@ -500,102 +505,119 @@ export const disorders = [
     category: 'emotional',
     tagline:
       'Sudden, unexpected episodes of intense fear accompanied by powerful physical symptoms.',
-    definition:
-      "Panic Disorder is a type of anxiety disorder characterized by sudden, unexpected episodes of intense fear accompanied by physical symptoms like chest pain, rapid heartbeat, shortness of breath, dizziness, and abdominal distress. People with panic disorder often experience recurrent attacks and spend long periods in fear of the next one. Attacks themselves aren't life-threatening, but they significantly affect quality of life, behavior, and cognitive development.",
+    definition: `One of the types of anxiety disorder characterized by its sudden or unexpected episodes of intense fear accompanied by physical symptoms such as chest pain, rapid heartbeats, shortness of breath, dizziness, and abdominal stress. Individuals with panic disorders often experienced recurrent panic attacks and spent long periods of time in constant fear of another attack.
+
+Although the panic attack itself is not life-threatening, they can significantly affect an individual's quality of life, behaviors, and cognitive development.`,
     types: [
       {
-        title: 'Cardiac',
-        body: 'Heart and chest symptoms such as rapid heartbeat, chest pain, and palpitations. Often mistaken for a heart attack, leading to repeated medical visits.',
+        title: 'CARDIAC',
+        body: 'It mainly involves symptoms related to the heart or chest area. It caused people to experience rapid heartbeat, chest pain, and heart palpitations. Many individuals become frightened and repeatedly seek medical help because it mimics the sound of heart attack.',
       },
       {
-        title: 'Respiratory',
-        body: 'Breathing-related symptoms including a suffocation feeling, shortness of breath, hyperventilation, and dizziness. The sense of not being able to breathe intensifies panic.',
+        title: 'RESPIRATORY',
+        body: 'This is characterized by breathing-related symptoms. This creates a terrifying feeling of suffocation, which makes people panic even more and make it harder to calm down. Also, individuals may experience shortness of breath, hyperventilation, or dizziness.',
       },
       {
-        title: 'Gastrointestinal',
-        body: 'Stress impacts the digestive system, causing nausea, abdominal discomfort, or upset stomach during attacks.',
+        title: 'GASTROINTESTINAL',
+        body: 'Anxiety and panic attacks can strongly affect the process of digestion because as the body responds to the stress—it impacts the stomach and intestines. Individuals may experience nausea, abdominal discomfort, or an upset stomach during panic attacks.',
       },
       {
-        title: 'Vestibular',
-        body: 'Affects balance and spatial awareness, causing disorientation or fear of losing balance, which can worsen the attack.',
+        title: 'VESTIBULAR',
+        body: 'This mainly affects the balance and spatial awareness. People with this kind of subtype may experience feeling disoriented or afraid that they might lose balance—which can worsen their panic attacks.',
       },
     ],
     signs: [
       {
         title: 'Sense of being in danger',
-        body: 'Feeling something terrible will happen even without a real threat.',
+        body: "People with panic disorders may feel that something terrible might happen at any moment even if there's no actual presence of the threat. This intense fear causes them to remain highly alert—causing them to think negatively of everything.",
       },
       {
-        title: 'Trembling or shaking',
-        body: 'Uncontrollable body shaking from the fight-or-flight response.',
+        title: 'Trembling or Shaking',
+        body: `A person with panic attacks may activate their body's "fight and flight" response, causing uncontrollable body shaking. This often happens because the body is releasing stress hormones that prepare the body to react in danger.`,
       },
       {
-        title: 'Abdominal cramping',
-        body: 'Nausea, stomach cramps, or discomfort during nervousness.',
+        title: 'Abdominal Cramping',
+        body: 'If a person is experiencing stress, their digestive system is most likely affected by it too. People may experience nausea, stomach cramps, or abdominal discomfort during moments of extreme nervousness.',
       },
       {
         title: 'Dizziness and lightheadedness',
-        body: 'Feeling weak or about to faint, from rapid breathing and tension.',
+        body: 'People with panic attacks may experience feeling dizzy, weak, or as if they are about to faint. Common symptoms are rapid breathing, tension in the body, and heart palpitations that create sensations of unsteadiness.',
       },
       {
-        title: 'Reality detachment ("derealization")',
-        body: 'Feeling disconnected, as if the environment is unreal or dreamlike.',
+        title: 'Reality detachment',
+        body: `People may feel disconnected from themselves during intense panic attacks. It is often called "derealizations" that can make the environment feel unreal or dream-like, causing more confusion to them.`,
       },
     ],
     strategies: [
       {
-        title: 'Color-coded task prioritization (Stoplight System)',
-        body: 'Red = must finish in class, Yellow = can finish at home, Green = optional. Lets students breathe instead of trying to do everything at once.',
+        title: 'Color-coded task prioritization (The Stoplight System)',
+        body: 'The teacher may apply colored highlighters to different assignment sheets. Red tasks means required to be finished before leaving the classrooms, Yellow tasks are the activities that can be finished at home if the time runs out, and Green tasks are completely optional activities. This enables students to breathe in, instead of being overwhelmed over trying to finish tasks all at once.',
       },
       {
-        title: 'Immediate feedback',
-        body: 'Visual signs, thumbs-up, and quick acknowledgement keep students engaged without overwhelming them.',
+        title: 'Immediate Feedback',
+        body: 'The teacher may use visual signs, non-verbal cues (thumbs up), or acknowledgement that will encourage students to participate actively in the class. These signals may be use an opportunity for them to keep on track with their progress and feel motivated accomplishing the tasks without feeling overwhelmed.',
       },
       {
-        title: 'Visual daily checklists',
-        body: 'A step-by-step schedule on the board (10 min icebreaker, 20 min lecture, 30 min activity) lets students see progress.',
+        title: 'Visual Daily Checklists',
+        body: 'The teacher may create a step-by-step schedule that will be written down in the corner of the blackboard to keep on track of the time. For example, (10) minutes for the icebreaker, (20) minutes for the lecture, and (30) minutes for group activities and presentation. The teacher may remove each item if they already finished that particular session.',
       },
     ],
     instructionalMaterials: [
       {
-        title: 'Step-by-step instructions',
-        body: 'Clear directions, printed checklists, and understandable oral discussions help learners follow without being overwhelmed.',
+        title: 'Step-by-Step Instructions',
+        body: 'providing clear directions, printed checklist instructions, and understandable oral discussions will be efficient for learners to follow without being overwhelmed.',
       },
       {
-        title: 'Low-pressure testing toolkits',
-        body: 'Alternative activities like matching columns, brain dumps (active recall), or choice boards instead of traditional tests.',
+        title: 'Low-pressuring testing toolkits',
+        body: 'Instead of sticking to traditional practices, they will be provided with other alternative activities such as matching columns, brain dumps (active recalls), or choice boards.',
       },
       {
-        title: 'Grounding objects',
-        body: 'Stress balls, fidget toys, or textured stickers help ease body tension and shift focus to physical sensations.',
+        title: 'The Presence of Grounding Objects',
+        body: "These objects help students to ease their body tension through items such as stress balls, fidget toys, or textured stickers. By shifting focus to physical sensations, they clear the students' once chaotic thoughts.",
       },
     ],
     assessment:
-      "Assessments should focus on the student's understanding and participation without raising stress. Self-reflective activities — journals, group work, self-assessment checklists, and scenario-based performances — let students engage while feeling emotionally safe. These build confidence and help students complete tasks without feeling overwhelmed or triggered.",
+      "Assessments should focus on the student's understanding and participation in class without increasing their stress levels. The teachers may use self-reflective activities such as journals, group activities, self-assessment checklists, and scenario-based performances to ensure that students are emotionally engaged and in good condition. These assessments are suitable for learners with panic attacks because it provides them an opportunity to build their confidence and feel at ease in accomplishing tasks without feeling overwhelmed.",
     accommodations: [
       {
-        title: 'Lecture accessibility',
-        body: "Recorded sessions, modules, or peer notes ensure students don't miss material if they need to step out.",
+        title: 'Lecture Accessibility',
+        body: "Provide alternative learning materials such as recorded sessions, modules, or copies of their peer's notes to ensure that they don't miss a material.",
       },
       {
-        title: 'Participation flexibility',
-        body: "Don't force participation. Collaborate with the student on how they can engage without triggering attacks.",
+        title: 'Participation Flexibility',
+        body: 'Avoid forcing participation that may increase their stress levels. It is recommended that we collaborate with them to determine a way for them to participate in class without triggering attacks.',
       },
       {
-        title: 'Flexible attendance',
-        body: 'Acknowledge excused absences or late arrivals related to panic attacks.',
+        title: 'Flexible Attendance',
+        body: 'Acknowledge excuse absences or late arrivals when it has something to do with their panic attacks.',
       },
       {
-        title: 'Comfortable seating areas',
-        body: 'Some students prefer being near the teacher, others in the back corner. Comfortable spaces reduce stress.',
+        title: 'Placing Students in Comfortable Areas',
+        body: 'Some students prefer sitting near the teacher, or in the back corner that makes them feel secure. It puts students at ease when they are placed in spaces where they feel comfortable and less distracted.',
       },
       {
-        title: 'Encouraging calming techniques',
-        body: 'Teach breathing, mindfulness, and grounding to help students manage their triggers.',
+        title: 'Encouraging Calming Techniques',
+        body: 'Teaching calming strategies such as breathing techniques, mindfulness exercises, and grounding activities can guide students in managing their triggers more effectively.',
       },
     ],
-    forTeachers:
-      'Teachers are responsible for understanding what triggers panic and providing appropriate accommodations. Lesson plans built on a student-centered learning approach, differentiated instructions, and emotionally-inclined teaching create inclusive, flexible spaces. This promotes belonging and helps all students manage their participation without fear of triggering attacks.',
+    forTeachers: {
+      intro:
+        'The teachers are responsible for understanding the needs of their learners, especially what triggers their panic disorders and the appropriate accommodations for learners experiencing this. By creating lesson plans that are inclusive, flexible, and learner-centered for all, it promotes belongingness and acknowledging their struggles as a learner. With proper principles and strategies, teachers may implement activities suitable for their learning needs.',
+      points: [
+        {
+          title: 'Student-Centered Learning Approach',
+          body: "This principle drives teachers to practice inclusive teaching inside their classroom. It allows them to adjust activities based on the student's emotional conditions and comfort level to provide proper accommodations. Also, teachers may organize lessons in a way that students are able to manage their time handling activities, including proper procedure, grounding activities, visual checklist, and color-coded task prioritization.",
+        },
+        {
+          title: 'Differentiated Instructions',
+          body: 'The teachers may consider providing multiple instructions for students to express their understanding and learnings differently. This includes reflective sessions, real-life scenarios performances, interactive activities, and creative assessments. This principle ensures that students with panic disorders are still able to achieve the learning objectives without being pressured in a place that may trigger attacks.',
+        },
+        {
+          title: 'Emotionally teaching inclined',
+          body: 'This principle allows teachers to integrate their emotional intelligence to their teaching instructions. It allows teachers to build a safe and comfortable environment, providing immediate feedback, comfortable seating arrangements, and encouraging students to feel emotionally secure and academically satisfied.',
+        },
+      ],
+    },
   },
 
   {
@@ -605,11 +627,11 @@ export const disorders = [
     tagline:
       'A psychiatric condition that may follow experiencing or witnessing a traumatic event.',
     definition:
-      'Post-Traumatic Stress Disorder (PTSD) is a psychiatric condition that may develop in people who have experienced or witnessed a traumatic event. The events are experienced as emotionally or physically harmful or life-threatening, and the memory continues to impact daily life long after the event has passed.',
+      'Post-Traumatic Stress Disorder (PTSD) is a psychiatric condition that may occur in people who have experienced or witnessed a traumatic event or series of traumatic events. The individual often experiences the events as emotionally or physically harmful or life-threatening.',
     types: [
       {
-        title: 'Dissociation (subtype)',
-        body: "A mental process in which the mind's ability to automatically and fully integrate all aspects of identity, memory, and consciousness fails under the stress of trauma.",
+        title: 'Dissociation',
+        body: "refers to a mental process in which the mind's ability to automatically and fully integrate all aspects of identity, memory, and consciousness fails under the stress of trauma.",
       },
       {
         title: 'Depersonalization',
@@ -624,63 +646,89 @@ export const disorders = [
         body: 'Inability to remember key details of a traumatic event.',
       },
     ],
-    signs: [
-      {
-        title: 'Intrusion',
-        body: 'The unwanted and involuntary intrusive thoughts such as repeated memories. Flashbacks may be so vivid that people feel they are reliving the traumatic experience.',
-      },
-      {
-        title: 'Avoidance',
-        body: 'Avoiding people, places, activities, objects, and situations that may trigger distressing memories.',
-      },
-      {
-        title: 'Changes in cognition and mood',
-        body: 'Inability to feel happiness, and a lack of interest in activity and/or people that they used to enjoy.',
-      },
-      {
-        title: 'Changes in arousal and reactivity',
-        body: 'Being irritable and having angry outbursts, behaving recklessly or in a self-destructive way.',
-      },
-    ],
+    signs: {
+      'Common Traumatic Triggers': [
+        { title: 'Physical, emotional, or sexual assault', body: '' },
+        { title: 'Severe Accidents', body: '' },
+        { title: 'Sudden Loss', body: '' },
+        { title: 'Disasters', body: '' },
+        { title: 'Workplace Exposure', body: '' },
+      ],
+      'Four Main Categories of Symptoms': [
+        {
+          title: 'Intrusion',
+          body: 'it is the unwanted and involuntary intrusive thoughts such as repeated memories. Flashbacks may be so vivid that people feel they are reliving the traumatic experience.',
+        },
+        {
+          title: 'Avoidance',
+          body: 'avoiding people, places, activities, objects, and situations that may trigger distressing memories.',
+        },
+        {
+          title: 'Changes in cognition and mood',
+          body: 'inability to feel happiness, and a lack of interest in activity and/or people that they used to enjoy.',
+        },
+        {
+          title: 'Changes in arousal and reactivity',
+          body: 'describe being irritable and having angry outbursts, behaving recklessly or in a self-destructive way',
+        },
+      ],
+    },
     strategies: [
       {
         title: 'Low-trigger content materials',
-        body: 'Age-appropriate texts that avoid graphic violence or distressing themes.',
+        body: 'age-appropriate texts that avoid graphic violence or distressing themes.',
       },
       {
-        title: 'Official toolkits and resources',
-        body: 'Use comprehensive, downloadable lesson materials, visual aids, and trauma-informed training.',
+        title: 'Official Toolkits and Resources',
+        body: 'for comprehensive, downloadable lesson materials, visual aids, and deeper training, refer to these authoritative resources.',
       },
       {
-        title: 'Brain breaks',
-        body: 'Brief movement or mindfulness breaks help students regulate their nervous systems and regain focus.',
+        title: 'Brain Breaks',
+        body: 'integrate regular, brief movement or mindfulness breaks to help students regulate their nervous systems and regain focus.',
       },
       {
         title: 'Choice and flexibility in learning',
-        body: 'Giving students with PTSD a choice in tasks restores a sense of control over their environment.',
+        body: 'giving students with PTSD a choice restores a sense of control.',
       },
     ],
     instructionalMaterials: null,
+    assessment: null,
     accommodations: [
       {
         title: 'Seating arrangements',
-        body: 'A change of seat can help a student feel safer and more focused.',
+        body: 'a change of seating arrangements can sometimes help a student feel safe and focused.',
       },
       {
-        title: 'Predictable routines',
-        body: 'Advance warnings on schedule changes so the student is never caught off guard.',
+        title: 'Predictable Routine',
+        body: 'advance warnings on schedule changes so the student is never caught off guard.',
       },
       {
-        title: '"Stop-the-clock" breaks',
-        body: 'Permission to pause an exam, take a breather, and return when calm.',
+        title: '"Stop-the-Clock" Breaks',
+        body: 'gives the student permission to pause an exam, take a breather, and return when calm.',
       },
       {
-        title: 'Small-group testing',
-        body: 'Reduces distraction and the stress of testing in a crowded room.',
+        title: 'Small-Group Testing',
+        body: 'reduces distraction and the stress of being in a crowded room.',
       },
     ],
-    forTeachers:
-      "Students with PTSD often struggle with concentration, emotional regulation, and participation. Future teachers play a crucial role by applying trauma-informed approaches: understanding the 4 F's (Fight, Flight, Freeze, Fawn) as automatic survival responses; using supportive discipline rather than punishment, building relationships through care; and conducting educational impact assessments that evaluate academic, behavioral, and emotional regulation to build individualized education plans (IEPs).",
+    forTeachers: {
+      intro:
+        'Students with Post-Traumatic Stress Disorder (PTSD) often experience difficulties in concentration, emotional regulation, and classroom participation due to past traumatic experiences that affect their sense of safety and learning. Because of this, future teachers play a crucial role in creating a supportive and understanding learning environment that responds appropriately to their needs. By applying trauma-informed approaches such as understanding trauma responses, using supportive discipline, and implementing appropriate educational assessments, teachers can help students with PTSD feel safe, respected, and capable of learning, such as:',
+      points: [
+        {
+          title: "The 4F's",
+          body: "typically refers to the Four Fear (or Trauma) Responses: Fight, Flight, Freeze, and Fawn. These are instinctive survival instincts that our brain's nervous system automatically activates when it perceives danger, extreme stress, or trauma",
+        },
+        {
+          title: 'Discipline instead of punishment',
+          body: 'build these relationships and attachments by intentionally and transparently handling these students with care and understanding.',
+        },
+        {
+          title: 'Educational Impact Assessments',
+          body: 'it evaluates the academic performance, behavioral changes, and emotional regulation to build an individualized education plan (IEP).',
+        },
+      ],
+    },
   },
 
   // ─────────────────────────────────────────────────────────────────────────
@@ -692,100 +740,103 @@ export const disorders = [
     category: 'social',
     tagline:
       'A neurodevelopmental condition affecting how a person communicates, interacts, and processes information.',
-    definition:
-      'Autism Spectrum Disorder (ASD) is a neurodevelopmental condition that affects how a person communicates, interacts, and processes information. It begins in early childhood. The word "spectrum" reflects a wide range of symptoms, classifications, and severity. There is no cure for ASD, but early accommodation and treatment can significantly improve outcomes.',
+    definition: `A neurodevelopmental condition that affects how a person communicates, interacts, and processes information. It begins in early childhood, where it becomes difficult for a child to function normally as they grow up. This causes problems in getting along with others socially and maintaining conversational flows. The word "spectrum" encompasses a wide range of symptoms, classifications, and severity of its causes.
+
+There is no cure for ASD, but an immediate accomodation/treatment may improve the lives of many children experiencing this.`,
     types: [
       {
-        title: 'Level 1 (Requires Support)',
-        body: 'High-functioning. Can communicate verbally and manage daily tasks independently, but experiences challenges with social interaction, awareness, and emotional regulation.',
+        title: 'LEVEL 1 (Requires Support)',
+        body: 'Individuals under level 1 ASD are considered high functioning, they can communicate using words and manage daily tasks independently but still experience challenges in social interactions. They need support/accommodation in improving their communication, social awareness, and emotional regulation.',
       },
       {
-        title: 'Level 2 (Requires Substantial Support)',
-        body: 'Limited verbal and nonverbal communication. Repetitive behaviors and resistance to change are frequent. Needs substantial educational, emotional, and social support.',
+        title: 'LEVEL 2 (Requires Substantial Support)',
+        body: 'Difficulties in communication and behaviors are noticeable in Level 2 ASD. Individuals in this level may have limited verbal and nonverbal communication skills and may struggle completely in social interactions. Repetitive behaviours and resistance to change are also frequent that interfere with their daily functioning. This requires substantial educational, emotional, and social support for continuous improvements of their participation in everyday activities.',
       },
       {
-        title: 'Level 3 (Requires Very Substantial Support)',
-        body: 'Significant impairments in communication, social interaction, and behavior. Severe sensory sensitivities and minimal speech are common. Needs continuous, extensive accommodation.',
+        title: 'LEVEL 3 (Requires Very Substantial Support)',
+        body: 'Level 3 ASD is the most critical and crucial level that involves significant impairments in communication, social interaction, and behavior. They often display repetitive behaviours, strong resistance to change, severe sensory sensitivities, and may speak a little. Learners at this level are required to have continuous and extensive accommodation for their daily lives, educational growth, and personal care.',
       },
       {
-        title: "Asperger's Syndrome (developmental disorder under ASD)",
-        body: 'Above-average intelligence, strong language skills, and intense fixation on specific objects, but difficulty comprehending social situations.',
+        title: "Asperger's Syndrome",
+        body: "This disorder is considered a separate developmental condition but later on revealed that it's under the spectrum of autism. Individuals with Asperger's Syndrome have an above average intelligence, strong language skills, and immediate fixation to objects, but struggles comprehending social situations.",
       },
       {
-        title: 'PDD-NOS (Pervasive Developmental Disorder Not Otherwise Specified)',
-        body: "Characteristics of autism that don't fully meet other autism-related criteria. Now categorized under the autism spectrum.",
+        title: 'Pervasive Developmental Disorder Not Otherwise Specified (PDD-NOS)',
+        body: "A diagnosis for individuals who's showing characteristics of autism but did not fully meet the criteria of other autism-related disorders. Symptoms including difficulty in communication, social interaction, and maintaining behaviors are part of this disorder. Now, it is categorized as part of the autism spectrum syndrome.",
       },
       {
-        title: 'Autistic Disorder ("classic autism")',
-        body: 'Occurs in early childhood, ranging mild to severe. Involves significant communication and social challenges, delayed language, repetitive behaviors, and difficulty with social cues.',
+        title: 'Autistic Disorder',
+        body: 'This often occurs during early childhood and can range from mild to severe. It is also known as "classic autism" as it involves significant challenges in communication and the way they socialize. They may have delayed language development, repetitive behaviors, and difficulty understanding social cues.',
       },
       {
         title: 'Childhood Disintegrative Disorder (CDD)',
-        body: 'A rare condition where a child appears to develop normally for a few years, then suddenly loses acquired language, social, motor, and self-care skills.',
+        body: 'A rare, severe neurodevelopmental condition in which a child appears normally in a few years of their life and then suddenly loses acquired skills—such as language acquisition, social skills, motor skills, and self-care.',
       },
     ],
     signs: [
       {
-        title: 'Avoiding eye contact',
-        body: 'Eye contact can feel uncomfortable, distracting, or overwhelming.',
+        title: 'Avoiding Eye Contacts',
+        body: "Individuals with autism may limit their eye contact during conversation. Some admitted that maintaining eye contact with someone feels uncomfortable, distracting and overwhelming for them. So, instead of looking straight into the person's eye, they often focus on other objects, frequently averting gazes, and just simply listening without visual contact.",
       },
       {
-        title: 'Hyperactive behaviors',
-        body: 'Constant movement, impulsive actions, excessive talking, fidgeting, especially when sensory input is high.',
+        title: 'Hyperactive Behaviours',
+        body: 'Some individuals with ASD may display hyperactive behaviours such as constant movement, impulsive actions, excessive talking, and fidgeting. They may move around and get excited over certain situations. Hyperactivity often occurs when their sensory sensitivities are high—making it difficult for them to regulate their attention and emotions.',
       },
       {
-        title: 'Repetitive patterns of behavior, interest, and activity',
-        body: 'Repeating phrases, spinning, hand flapping, intense fixation on certain topics.',
+        title: 'Repetitive Patterns of Behaviours, Interests, Activities',
+        body: 'One of the common characteristics of ASD is engaging in repetitive habits. This may include repeating the same phrases, spinning, hand flapping, or doing things in a specific order. They may also develop an intense interest in certain activities, topics, and objects—leading them to spend a lot of time focusing on doing those habits.',
       },
       {
-        title: 'Difficulties with social interaction and communication',
-        body: 'Trouble maintaining conversation, reading facial expressions, tone, or body language.',
+        title: 'Difficulties with Social Interaction/ Communication',
+        body: 'People with ASD may develop a sense of difficulty in understanding social situations, expressing themselves, or communicating with the outside world. They may have difficulty in maintaining the conversation, understanding facial expressions, tone of voice, or body languages. Some individuals prefer to be alone or may struggle in forming relationships, while others want social interactions but do not know how to communicate themselves properly.',
       },
     ],
     strategies: [
       {
-        title: 'Increase environmental predictability',
-        body: 'Establish routines, give advance notice of changes via visual schedules, and explain classroom expectations clearly.',
+        title: 'Increasing environmental predictability',
+        body: 'Teachers may increase environmental predictability by establishing classroom routines, giving out advance notice of changes (through visual schedules), and explaining the classroom expectations. This will reduce the feeling of stress, confusion, and anxiety by allowing learners to focus better in learning and actively participating in class.',
       },
       {
-        title: 'Reduce sensory strain',
-        body: 'Minimize bright lights, loud noises, and crowded layouts. Lower volumes, design quiet spaces, and use soft lighting.',
+        title: 'Reducing Sensory Strain',
+        body: 'Most of the learners with ASD have various sensory sensitivities that can be triggered through noises, bright lights, or crowded places. In creating an educational environment that is suitable for their learning needs, teachers must consider minimizing sensory strains such as lowering the volume levels, designing quiet spaces, and using soft lights to avoid overwhelming the students.',
       },
       {
-        title: 'Provide explicit, literal communication',
-        body: 'Avoid figurative language, sarcasm, or unclear directions. Clear and direct instructions help comprehension.',
+        title: 'Providing Explicit, Literal Communication',
+        body: 'Learners with ASD may struggle in understanding figurative languages, jokes, sarcasms, or unclear instructions. By providing clear instructions, direct information, and specific topics helps learners to better understand activities, comprehend directions, acknowledge social relationships, and know expectations within the classroom.',
       },
     ],
     instructionalMaterials: [
       {
-        title: '"Work-Then" and token boards',
-        body: 'Laminated cards showing the task ("Work") and the reward ("Then"). Tokens track points earned for completing tasks.',
+        title: '"Work-Then" & Token Boards',
+        body: 'A laminated card with two pictures. The "Work" shows the picture of a task. While the "Then" shows the motivating rewards. This ensures that students will learn where all the hard work ends up and what they must do to acquire the rewards. The token boards serve as the system of how many points they received in doing the tasks.',
       },
       {
-        title: 'TEACCH task boxes',
-        body: 'Structured workspaces with labeled boxes of organized materials. Students sort items by characteristic (color, shape, size) to build independent execution skills.',
+        title:
+          'Treatment and Education of Autistic and Related Communication Handicapped Children (TEACHH) Task Boxes',
+        body: "This framework used structured workspaces to build the learners' independent execution skills. It includes labeled boxes with organized materials inside. The student must arrange the materials according to its characteristics (e.g. matching colors, shapes, and sizes). It ensures that the students will learn effectively and efficiently by sorting out materials with clear objectives.",
       },
       {
-        title: 'Interactive books',
-        body: 'Books with movable picture icons that students place in missing spots on the page. An engaging cognitive and sensory experience.',
+        title: 'Interactive Books',
+        body: 'These books contain picture icons that are movable. While reading/listening, they may interact with its features by placing the cut-out pictures into the missing spot on the page. These engaging activities encouraged students with ASD to enhance their cognitive skills and enhanced sensory experience.',
       },
     ],
+    assessment: null,
     accommodations: [
       {
-        title: 'Observational and functional assessments',
-        body: 'Play-based interactions let teachers observe communication, behavior, and skills without pressure.',
+        title: 'Observational & Functional Assessments',
+        body: "One of the most common and effective methods in recording a student's progress and behavior. Teachers may conduct play-based interactions to observe how they communicate, interact, behave, or use their acquired skills without pressure. This guide the teachers providing proper accommodations according to their needs.",
       },
       {
-        title: 'Rapport building',
-        body: "Learn each student's deep interests and integrate them into daily activities. The environment must feel safe before learning can happen.",
+        title: 'Rapport Building',
+        body: "In the framework of educational psychology, teachers serve as the knowledgeable others (MKO) for students. However, an autistic learner may not be able to learn or absorb knowledge from a MKO if the environment itself does not feel safe, comfortable, or regulated. Teachers may build connections by learning about their student's deep interests and integrating them in daily activities.",
       },
       {
-        title: 'Environmental and sensory supports',
-        body: 'Soft lights, fidget tools, labeled spaces, and a dedicated "reset" space for sensory regulation.',
+        title: 'Environmental & Sensory Supports',
+        body: 'Physical classroom environment may become a challenge for learners with ASD, especially if it becomes a barrier to learning. They may differ in sensory experiences, so it is recommended that teachers must consider different factors such as providing soft lights, fidget tools for maintaining focus, organizing and labeling each space with clear signages, and a space designed for providing a safe place to reset their minds.',
       },
     ],
     forTeachers:
-      "Understanding learners' needs, communication styles, and sensory sensitivities guides educators in developing suitable assessments and accommodations. Instead of relying on traditional written tests, teachers can use performance tasks, engaging activities, and hands-on experiences. This lets learners demonstrate understanding in ways that match their strengths, while building patience, empathy, and inclusive, learner-centered classrooms.",
+      "Understanding the learner's needs, communication styles, and sensory sensitivities will guide educators in developing suitable assessments, providing equal opportunities, and accommodations for their student's development. Instead of relying solely on the traditional written assessments, teachers may include performance tasks, engaging activities, and hands-on learning experiences in their lesson plans. With this, it allows learners to demonstrate their understanding in ways that match their capabilities and strengths. This allows teachers to develop patience, empathy, and effective classroom management skills, encouraging them to create learner-centered lessons that promote inclusion, meaningful, and respectful learning environments for everyone. Furthermore, acknowledging various accommodations may also guide educators in planning appropriate classroom strategies that support the learners' success. Teachers may provide flexible learning tasks, simplified directions, sensory-friendly activities, and visual presentations to help learners with ASD to improve their focus, reduce anxiety, and actively participate in class discussions.",
   },
 
   {
@@ -795,51 +846,49 @@ export const disorders = [
     tagline:
       'A pattern of aggressive behavior and rule-breaking that harms others and violates social norms.',
     definition:
-      'Conduct Disorder (CD) is a mental health condition affecting children and teens, characterized by a consistent pattern of aggressive behaviors and actions that harm others. Children with conduct disorder often violate rules and societal norms, and may struggle with empathy, remorse, or taking responsibility.',
+      "Conduct disorder (CD) is a mental health condition that affects children and teens that's characterized by a consistent pattern of aggressive behaviors and actions that harm the well-being of others. Children with conduct disorder also often violate rules and societal norms.",
     types: [
       {
         title: 'Socialized conduct disorder',
-        body: 'Children make friends, who usually also behave in an antisocial way. Relationships with adults may be good, but there are often difficulties with authority figures.',
+        body: 'Children are able to make friends who usually also behave in an antisocial way. Relationships with adults may be good but there are often difficulties with some authority figures.',
       },
       {
         title: 'Unsocialized conduct disorder',
-        body: "These children don't have friends because they are rejected by peers, and some choose to isolate themselves and stay alone.",
+        body: 'These children do not have friends because they are rejected by their peers but some of them chose to isolate themselves and chose to be alone.',
       },
     ],
     signs: [
       {
-        title: 'Aggression toward people and animals',
-        body: "Or violating others' basic rights.",
-      },
-      { title: 'Destruction of property', body: '' },
-      { title: 'Deceiving, lying, or stealing', body: '' },
-      { title: 'Serious violations of rules', body: '' },
-      {
-        title: 'Difficulty feeling or expressing empathy or remorse',
+        title: "Aggression toward people and animals and/or violating others' basic rights.",
         body: '',
       },
-      { title: 'Limited emotional response toward others', body: '' },
+      { title: 'Destruction of property.', body: '' },
+      { title: 'Deceiving, lying and/or stealing.', body: '' },
+      { title: 'Serious violations of rules.', body: '' },
+      { title: 'Feeling and expressing empathy or remorse.', body: '' },
+      { title: 'Showing emotion toward others', body: '' },
       {
-        title: 'Trouble performing well in school or community',
-        body: 'And avoiding responsibility for poor performance.',
+        title:
+          'Performing well in the school or community and taking responsibility for poor performance.',
+        body: '',
       },
     ],
     strategies: [
       {
-        title: 'Token reward system',
-        body: 'Positive reinforcement by giving points, stars, or tokens for following directions, completing work, or showing respectful behavior. Helps learners repeat good behavior.',
+        title: 'Token Reward System',
+        body: 'Using positive reinforcement by giving points, stars, or tokens for following directions, completing work, or showing respectful behavior. It helps the learners to repeat good behavior.',
       },
       {
-        title: 'Clear rules and expectations',
+        title: 'Clear Rules and Expectations',
         body: 'Students with conduct disorder respond better when expectations are predictable and clearly explained.',
       },
       {
-        title: 'Check-in / check-out system',
-        body: 'Monitor behavior consistently throughout the day. Check in the morning and observe what went well at the end. Builds accountability and teacher-student trust.',
+        title: 'Check-In and Check-Out System',
+        body: 'Since students with conduct disorder are having patterns of aggressive behavior, it is important to monitor their behavior consistently throughout the day by checking them in the morning and observing what went well. This helps to build accountability and teacher-student trust.',
       },
       {
-        title: 'Calm-down corner',
-        body: 'A designated area with coloring sheets or emotion charts where students can calm themselves. Helps manage emotions before behaviors escalate.',
+        title: 'Calm-Down Corner',
+        body: 'Allow students to have enough time to calm themselves by having a calm-down area with different coloring sheets or emotion charts. It helps students to learn managing emotions before behaviors escalate.',
       },
     ],
     instructionalMaterials: [
@@ -849,22 +898,23 @@ export const disorders = [
       { title: 'Group activity materials', body: '' },
       { title: 'Science experiments and practical activities', body: '' },
     ],
+    assessment: null,
     accommodations: [
       {
-        title: 'Behavioral rating scales (CBCL)',
-        body: 'The Child Behavior Checklist quantifies the frequency of symptoms and helps gauge whether classroom behavior is mild or severe.',
+        title: 'Behavioral Rating Scales',
+        body: "CBCL (Child Behavior Checklist) helps the teacher to quantify frequency of symptoms. It can also help if the child's behavior inside the classroom is mild or severe.",
       },
       {
-        title: 'Use of ICT',
-        body: 'Students with conduct disorder often work well on computers with active, interactive programs.',
+        title: 'The use of ICT',
+        body: 'Consider the use of technology. Students with conduct disorder tend to work well on computers with active programs.',
       },
       {
-        title: 'Clear instructions',
-        body: 'Break tasks into smaller steps to avoid escalating emotions or behavior.',
+        title: 'Provide clear instructions',
+        body: 'Tasks can break into smaller steps to avoid escalating emotions or behavior.',
       },
       {
         title: 'Offering choices',
-        body: 'Let students choose what to do next instead of receiving direct commands. Freedom of choice reduces defiance.',
+        body: 'This helps students to have freedom to choose what are they going to do next instead of direct commands.',
       },
     ],
     forTeachers: {
@@ -872,15 +922,15 @@ export const disorders = [
         'Future teachers should understand that students with conduct disorder need guidance, patience, and positive support. Through effective classroom management and strong relationships, teachers can help students improve their behavior.',
       points: [
         {
-          title: 'Build positive teacher-student relationships',
+          title: 'Build Positive Teacher-Student Relationships',
           body: 'Students with conduct disorder often struggle with trust and authority. Positive relationships can reduce aggressive or oppositional behavior.',
         },
         {
-          title: 'Use positive reinforcement',
+          title: 'Use Positive Reinforcement',
           body: 'Positive attention encourages students to repeat appropriate behavior.',
         },
         {
-          title: 'Provide structured routines',
+          title: 'Provide Structured Routines',
           body: 'Structure reduces confusion, frustration, and impulsive reactions.',
         },
       ],
@@ -894,119 +944,140 @@ export const disorders = [
     tagline:
       'Frequent anger, irritability, and hostile behavior toward authority figures.',
     definition:
-      'Oppositional Defiant Disorder (ODD) is a behavioral disorder commonly seen in children and adolescents, characterized by frequent anger, irritability, disobedience, and hostile behavior toward authority figures like parents and teachers.',
+      'Oppositional Defiant Disorder is a behavioral disorder commonly seen in children and adolescents that is characterized by frequent anger, irritability, disobedience, and hostile behavior toward authority figures such as parents and teachers.',
     types: [
       {
         title: 'Mild ODD',
-        body: 'Symptoms occur only in 1 setting (home OR school).',
+        body: 'The symptoms occur only in 1 setting (home or school).',
       },
       {
         title: 'Moderate ODD',
-        body: 'Symptoms appear in at least 2 settings (home AND school).',
+        body: 'The symptoms are seen in at least 2 settings (home and school).',
       },
       {
         title: 'Severe ODD',
-        body: 'Symptoms occur in 3 or more settings such as at home, school, with peers, or in public.',
+        body: 'The symptoms occur in 3 or more settings (for instance at home or school, with peers, or in public).',
       },
     ],
     signs: [
       {
-        title: 'Angry and irritable mood',
-        body: 'Easily loses temper, frequently touchy, easily annoyed, often resentful.',
+        title: 'Angry and Irritable mood',
+        body: 'They often and easily lose temper and are frequently touchy and can be easily annoyed by others. They are often angry and resentful.',
       },
       {
-        title: 'Argumentative and defiant behavior',
-        body: 'Argues with adults, refuses to follow rules, blames others for mistakes.',
+        title: 'Argumentative and Defiant Behavior',
+        body: 'They often argue with adults or people who have a higher authority. They often define or refuse to follow adult requests or rules. They also often blame someone else for a mistake or misbehavior that they have done.',
       },
       {
-        title: 'Hurtful and revengeful behaviors',
-        body: "Says hateful things when upset, tries to hurt others' feelings, seeks revenge.",
+        title: 'Hurtful and Revengeful behaviors',
+        body: 'They say hateful things when they are upset and try to hurt the feelings of other people to seeks revenge.',
       },
     ],
     strategies: [
       {
         title: 'Be calm and consistent',
-        body: 'Stay calm, avoid reacting with anger. Use a positive, consistent approach while respecting the student.',
+        body: "Teachers should stay calm, avoid reacting with anger, and use a positive, consistent approach while respecting the student's space and behavior expectations.",
       },
       {
         title: 'Reinforce positive behavior',
-        body: 'Recognize and reward good behavior instead of only correcting negative actions.',
+        body: 'Teachers should focus on recognizing and rewarding good behavior instead of only correcting negative actions to encourage improvement and motivation.',
       },
       {
-        title: 'Understand the cause of behavior',
-        body: 'Observe triggers and early warning signs to prevent escalation.',
+        title: 'Understand the cause of the behavior',
+        body: 'Teachers should observe triggers and early warning signs to better understand why behavior happens and prevent escalation.',
       },
       {
-        title: 'Provide a safe space to calm down',
-        body: 'A quiet area where the student can manage emotions and reset their behavior.',
+        title: 'Provide a safe space for students to calm down',
+        body: 'Teachers should allow students a quiet area where they can calm down, manage emotions, and reset their behavior.',
       },
       {
-        title: 'Offer clear choices and respect autonomy',
-        body: 'Give simple choices, avoid power struggles, and allow time to decide.',
+        title: 'Offer students clear choices and respect their autonomy',
+        body: 'Teachers should give simple choices, avoid power struggles, and allow students time to decide appropriately.',
       },
       {
-        title: 'Build positive connections',
-        body: 'Build trust through conversation, active listening, and genuine care.',
+        title: 'Build positive connections with students',
+        body: 'Teachers should build trust through simple conversations, active listening, and showing genuine care to strengthen relationships and support behavior improvement.',
       },
     ],
     instructionalMaterials: [
       {
-        title: 'Behavior Support Plan (BSP) template',
-        body: 'A structured document outlining goals, triggers, strategies, and agreed interventions.',
+        title: 'Behavior Support Plan (BSP) Template',
+        body: "A structured document that outlines the student's behavior goals, triggers, strategies, and agreed interventions so the teacher has a clear, consistent plan to follow.",
       },
       {
-        title: 'Choice board or option cards',
-        body: 'Visual cards giving limited acceptable choices to reduce defiance and provide a sense of control.',
+        title: 'Choice Board or Option Cards',
+        body: 'Visual or written cards that give limited, acceptable choices during tasks to reduce defiance and help the student feel a sense of control.',
       },
       {
-        title: 'Reinforcement system chart',
-        body: 'Token, point, or sticker tracker for immediate recognition of positive behaviors.',
+        title: 'Reinforcement System Chart',
+        body: 'A simple tracking tool (token, point, or sticker system) used to immediately recognize and reward positive behaviors.',
       },
       {
-        title: 'Calm-down / break pass system',
-        body: 'A physical pass to request a short break in a designated safe space before behavior escalates.',
+        title: 'Calm Down / Break Pass System',
+        body: 'A physical card or pass that allows the student to request a short break in a designated safe space before behavior escalates.',
       },
       {
-        title: 'Reflection or behavior log sheet',
-        body: 'A guided form to help the student identify what happened, what triggered it, and what to do next time.',
+        title: 'Reflection or Behavior Log Sheet',
+        body: 'A guided form used after incidents to help the student identify what happened, what triggered it, and what they can do differently next time.',
       },
     ],
+    assessment: null,
     accommodations: [
       {
-        title: 'Structured choices',
-        body: 'Limited choices within tasks (how/where to complete work) promote control and reduce power struggles.',
+        title: 'Structured Choices',
+        body: 'Students will be provided with limited, structured choices within tasks (e.g., how or where to complete work) to promote a sense of control, reduce power struggles, and improve cooperation during classroom activities.',
       },
       {
-        title: 'Behavior contract',
-        body: 'A written agreement between teacher, student, and parent outlining goals, expectations, and consequences.',
+        title: 'Behavior Contract',
+        body: 'A clear written agreement will be established between the teacher, student, and parent outlining specific behavior goals, expectations, and agreed consequences or rewards to help the student take responsibility for their behavior and monitor progress.',
       },
       {
-        title: 'Token economy / reward system',
-        body: 'Positive reinforcement system where students earn tokens for appropriate behaviors.',
+        title: 'Token Economy / Reward System',
+        body: 'A positive reinforcement system will be implemented where students earn tokens, points, or stickers for appropriate behaviors, which can be exchanged for rewards to increase motivation and reinforce positive behavior.',
       },
       {
-        title: 'Modified discipline approach',
-        body: 'Restorative and supportive discipline guiding reflection rather than relying on punishment.',
+        title: 'Modified Discipline Approach',
+        body: 'Restorative and supportive discipline strategies will be used instead of relying solely on punishment, guiding students to reflect on their behavior, identify triggers, and develop appropriate responses.',
       },
       {
-        title: 'Access to safe space / break area',
-        body: 'A designated calm-down area when feeling overwhelmed.',
+        title: 'Access to Safe Space / Break Area',
+        body: 'Students will be given access to a designated safe space or break area when feeling overwhelmed or emotionally escalated to support self-regulation and prevent behavioral escalation.',
       },
       {
-        title: 'Daily emotional check-in',
-        body: 'Brief check-ins with a feelings scale or conversation to assess emotional state.',
+        title: 'Daily Emotional Check-In',
+        body: "Brief daily emotional check-ins will be conducted using tools such as a feelings scale or short conversations to assess students' emotional states and provide timely support when needed.",
       },
       {
-        title: 'Access to school counselor',
-        body: 'Scheduled sessions and referrals to support emotional and behavioral needs.',
+        title: 'Access to School Counselor',
+        body: 'Access to the school counselor will be ensured through both scheduled sessions and referrals as needed to support emotional and behavioral needs.',
       },
       {
-        title: 'Social skills group',
-        body: 'Structured group sessions focused on communication, cooperation, and conflict resolution.',
+        title: 'Social Skills Group',
+        body: 'Participation in structured social skills group sessions will be supported, focusing on communication, cooperation, and conflict resolution to strengthen interpersonal skills and peer relationships.',
       },
     ],
-    forTeachers:
-      'Understanding students with ODD helps teachers create a positive, structured, supportive classroom. Recognize defiant behaviors as part of the disorder rather than disrespect; manage power struggles through calm communication and choices; use positive reinforcement to encourage motivation; and support emotional regulation by recognizing triggers and guiding students toward healthier coping.',
+    forTeachers: {
+      intro:
+        'Understanding students with Oppositional Defiant Disorder (ODD) helps teachers create a more positive, structured, and supportive classroom environment. By recognizing the emotional and behavioral challenges associated with ODD, teachers can respond more effectively and encourage better student behavior and participation.',
+      points: [
+        {
+          title: 'Recognize Defiant Behaviors',
+          body: 'Students with ODD may argue, refuse instructions, or get easily irritated. Understanding this helps teachers respond calmly instead of labeling them as disrespectful.',
+        },
+        {
+          title: 'Manage Power Struggles',
+          body: 'They may react strongly to strict demands, so using calm communication and giving choices helps reduce conflict.',
+        },
+        {
+          title: 'Use Positive Reinforcement',
+          body: 'Praise and rewards help encourage better behavior and motivation in class.',
+        },
+        {
+          title: 'Support Emotional Regulation',
+          body: 'Students with ODD may struggle with anger and frustration, so recognizing triggers helps teachers guide them toward better coping.',
+        },
+      ],
+    },
   },
 
   {
@@ -1016,73 +1087,64 @@ export const disorders = [
     tagline:
       'Attention-Deficit/Hyperactivity Disorder. A persistent pattern of inattention and/or hyperactivity-impulsivity.',
     definition:
-      'ADHD is characterized by a persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development. It is typically categorized into three presentations: Predominantly Inattentive, Predominantly Hyperactive-Impulsive, and Combined.',
+      'ADHD is characterized by a persistent pattern of inattention and/or hyperactivity-impulsivity that interferes with functioning or development. It is typically categorized into three types:',
     types: [
-      {
-        title: 'Predominantly Inattentive',
-        body: 'Difficulty sustaining attention, organizing tasks, and following through. Often appears distracted or not listening.',
-      },
-      {
-        title: 'Predominantly Hyperactive-Impulsive',
-        body: 'Excessive movement, talking, fidgeting, and acting without thinking. Difficulty waiting and self-regulating.',
-      },
-      {
-        title: 'Combined Presentation',
-        body: 'Both inattentive and hyperactive-impulsive symptoms are present together.',
-      },
+      { title: 'Predominantly Inattentive Presentation', body: '' },
+      { title: 'Predominantly Hyperactive-Impulsive Presentation', body: '' },
+      { title: 'Combined Presentation', body: '' },
     ],
     signs: [
       {
-        title: 'Executive function challenges',
-        body: 'Difficulty with working memory, flexible thinking, and self-control.',
+        title: 'Executive Function Challenges',
+        body: 'Difficulty with "the brain\'s management system," including working memory, flexible thinking, and self-control.',
       },
       {
         title: 'Inattention',
-        body: 'Trouble sustaining focus, not appearing to listen, frequently losing items.',
+        body: 'Difficulty sustaining focus on tasks, appearing not to listen when spoken to, and frequently losing necessary items (pencils, notebooks).',
       },
       {
         title: 'Hyperactivity',
-        body: 'Fidgeting, inability to remain seated, talking excessively.',
+        body: 'Fidgeting, inability to remain seated, or talking excessively.',
       },
       {
         title: 'Impulsivity',
-        body: 'Blurting out answers, difficulty waiting, interrupting others.',
+        body: 'Blurted-out answers, difficulty waiting for a turn, or interrupting others.',
       },
       {
-        title: 'Emotional dysregulation',
+        title: 'Emotional Dysregulation',
         body: 'Heightened sensitivity to frustration or perceived rejection.',
       },
     ],
     strategies: [
       {
         title: 'Chunking',
-        body: 'Break large projects into small, "bite-sized" tasks with individual deadlines.',
+        body: 'Break large projects into smaller, "bite-sized" tasks with individual deadlines.',
       },
       {
         title: 'The "Rule of Three"',
-        body: 'Give no more than three instructions at a time, and ask the student to paraphrase them back.',
+        body: 'Give no more than three instructions at a time, and ask the student to paraphrase them back to you.',
       },
     ],
     instructionalMaterials: [
       {
-        title: 'Visual organizers',
-        body: 'Graphic organizers, color-coded folders, and visual schedules help students map out their day and thoughts.',
+        title: 'Visual Organizers',
+        body: 'Use graphic organizers, color-coded folders, and visual schedules to help students map out their day and their thoughts.',
       },
       {
-        title: 'Interactive tech',
-        body: 'Gamified learning platforms provide the immediate feedback loop that ADHD brains often crave.',
+        title: 'Interactive Tech',
+        body: 'Gamified learning platforms can provide the immediate feedback loop that students with ADHD often crave.',
       },
       {
         title: 'Manipulatives',
-        body: 'Fidget tools (used as tools, not toys), stress balls, or standing desks channel movement productively.',
+        body: 'Tools like fidget spinners (when used as a tool, not a toy), stress balls, or standing desks allow for productive movement.',
       },
     ],
     assessment:
-      'Testing can be particularly stressful for students with ADHD. Tailoring the testing environment helps them demonstrate their actual knowledge through adjustments to setting (quiet room, preferential seating), timing (extended time, supervised breaks), response format (oral answers, computer for essays), and formatting (fewer items per page, larger fonts, highlighted keywords).',
+      'Testing can be particularly stressful for students with ADHD. Tailoring the environment can help them demonstrate their actual knowledge.',
     accommodations: [
       {
         title: 'Setting',
-        body: 'Testing in a separate, quiet room; preferential seating away from doors and windows.',
+        body: 'Testing in a separate, quiet room; preferential seating away from doors/windows.',
       },
       {
         title: 'Timing',
@@ -1090,15 +1152,31 @@ export const disorders = [
       },
       {
         title: 'Response',
-        body: 'Allowing oral responses instead of written; use of a computer for essays.',
+        body: 'Allowing oral responses instead of written ones; use of a computer for essays.',
       },
       {
         title: 'Formatting',
         body: 'Fewer items per page; larger font sizes; highlighting key keywords in instructions.',
       },
     ],
-    forTeachers:
-      "These strategies don't just help students with ADHD. They create a more accessible classroom for everyone (Universal Design for Learning). Clarity is prioritized: when instructions are clear for ADHD students, they're clear for everyone. Flexibility is normalized: multiple ways to learn reduce the stigma of \"special treatment.\" Understanding the neurological basis maintains empathy and prevents burnout, building positive teacher-student bonds.",
+    forTeachers: {
+      intro:
+        "Adopting these strategies doesn't just help the student with ADHD as it creates a more accessible classroom for everyone. This approach, known as Universal Design for Learning (UDL), ensures that:",
+      points: [
+        {
+          title: 'Clarity is prioritized',
+          body: 'When instructions are clear for a student with ADHD, they are clear for everyone.',
+        },
+        {
+          title: 'Flexibility is normalized',
+          body: 'Providing multiple ways to learn and show knowledge reduces the stigma of "special treatment."',
+        },
+        {
+          title: 'Relationship Building',
+          body: 'Understanding the neurological basis of ADHD helps teachers maintain empathy, preventing burnout and fostering a positive teacher-student bond.',
+        },
+      ],
+    },
   },
 
   {
@@ -1108,68 +1186,54 @@ export const disorders = [
     tagline:
       'A condition where a child struggles to form healthy emotional bonds with caretakers, often after early neglect or abuse.',
     definition:
-      "Reactive Attachment Disorder (RAD) is a condition where a child doesn't form healthy emotional bonds with their caretakers (parental figures), often due to emotional neglect or abuse at an early age. Children with RAD have trouble managing their emotions and struggle to form meaningful connections with other people.",
+      "Reactive attachment disorder (RAD) is a condition where a child doesn't form healthy emotional bonds with their caretakers (parental figures), often because of emotional neglect or abuse at an early age. Children with RAD have trouble managing their emotions. They struggle to form meaningful connections with other people.",
     types: null,
     signs: [
       {
-        title: 'Limited emotional expression',
-        body: 'Rarely smiling or showing happiness.',
-      },
-      {
-        title: 'Frequent irritability without a clear reason',
+        title: 'Limited emotional expression, such as rarely smiling or showing happiness',
         body: '',
       },
+      { title: 'Frequent irritability without a clear reason', body: '' },
       {
-        title: 'Appearing sad, fearful, or emotionally withdrawn',
-        body: 'Especially around caregivers.',
-      },
-      {
-        title: 'Difficulty being comforted by adults when upset',
+        title: 'Appearing sad, fearful, or emotionally withdrawn, especially around caregivers',
         body: '',
       },
+      { title: 'Difficulty being comforted by adults when upset', body: '' },
       {
-        title: 'Preference for being alone',
-        body: 'Rather than seeking comfort or connection.',
-      },
-      {
-        title: 'Lack of interest in interacting with others',
+        title: 'Preference for being alone rather than seeking comfort or connection',
         body: '',
       },
-      {
-        title: 'Limited emotional response when held or comforted',
-        body: '',
-      },
-      {
-        title: 'No interactive play',
-        body: 'Not laughing or playing interactive games like peek-a-boo.',
-      },
+      { title: 'Lack of interest in interacting with or responding to other people', body: '' },
+      { title: 'Limited emotional response when being held or comforted by adults', body: '' },
+      { title: 'Not laughing or playing interactive games like peek-a-boo', body: '' },
     ],
     strategies: [
       {
-        title: 'Consistent structure',
-        body: 'Clear routines and consistent expectations help students feel safer and more comfortable when trust is hard.',
+        title: 'Consistent Structure',
+        body: 'Because students with Reactive Attachment Disorder often struggle with trust and security, clear routines and consistent expectations can help them feel safer and more comfortable in the classroom.',
       },
       {
-        title: 'Positive discipline',
-        body: 'Harsh punishment increases fear, anger, and withdrawal. Calm, respectful consequences are more effective.',
+        title: 'Positive Discipline',
+        body: 'Harsh punishment may increase fear, anger, or withdrawal in students with Reactive Attachment Disorder, so calm and respectful consequences are more effective.',
       },
       {
-        title: 'Empathy and support',
-        body: 'Patience and understanding help students who struggle to express emotions feel supported.',
+        title: 'Empathy and Support',
+        body: 'Students with Reactive Attachment Disorder may have difficulty expressing emotions, so patience and understanding can help them feel supported and understood.',
       },
       {
-        title: 'Strong communication',
-        body: 'Regular contact with parents and caregivers, since behaviors at home and school may differ, keeps support consistent.',
+        title: 'Strong Communication',
+        body: 'Since students with Reactive Attachment Disorder may show different behaviors at home and at school, regular communication with parents and caregivers helps provide consistent support.',
       },
       {
-        title: 'Trust building',
-        body: 'Slow, positive, respectful relationships help students with RAD develop trust and improve social interactions.',
+        title: 'Trust Building',
+        body: 'Building positive and respectful relationships can help students with Reactive Attachment Disorder slowly develop trust and improve their social interactions.',
       },
     ],
     instructionalMaterials: null,
+    assessment: null,
     accommodations: null,
     forTeachers:
-      'Teachers should focus on creating a safe, structured, and supportive classroom environment. In creating a safe space for students, teachers should use calm communication and avoid harsh discipline or public embarrassment. Build a safe space and trusting relationship with students, and help them through a supportive classroom that includes social-emotional learning activities, clear and simple step-by-step instructions, and positive reinforcement and encouragement.',
+      'Teacher should focus on creating a safe, structured, and supportive classroom environment. In creating a safe space for students, teacher should use calm communication, avoid harsh discipline or public embarrasment. Build a safe space and trusting relationship with the students, and it also help students to have support classroom environment such as including a social emotional learning activities, give clear, simple, step by step instructions, and provide positive reinforcement and encouragement.',
   },
 ]
 

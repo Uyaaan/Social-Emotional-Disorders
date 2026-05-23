@@ -108,7 +108,27 @@ function AccordionList({ items, a, kind }) {
   return (
     <div className="flex flex-col gap-1.5">
       {items.map((it, i) => {
-        const isOpen = open === i
+        const hasBody = typeof it.body === 'string' && it.body.trim().length > 0
+        const isOpen = hasBody && open === i
+
+        if (!hasBody) {
+          return (
+            <div
+              key={i}
+              className="overflow-hidden rounded-2xl border border-border bg-transparent"
+            >
+              <div className="flex w-full items-center gap-2.5 px-3 py-2.5 text-left text-ink">
+                <span
+                  className={`inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-md font-display text-[11.5px] font-bold ${a.bg} ${a.fg}`}
+                >
+                  {i + 1}
+                </span>
+                <span className="flex-1 text-[13.5px] font-medium">{it.title}</span>
+              </div>
+            </div>
+          )
+        }
+
         return (
           <div
             key={i}
