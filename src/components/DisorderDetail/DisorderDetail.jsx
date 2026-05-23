@@ -21,7 +21,7 @@ export default function DisorderDetail({ d }) {
       <div
         role="tablist"
         aria-label={`${d.name} sections`}
-        className="scrollbar-hidden flex gap-0 overflow-x-auto border-b border-border bg-surface-alt/50 px-1 pt-1"
+        className="scrollbar-hidden flex gap-0 overflow-x-auto border-b border-border bg-surface-alt/50 px-2 pt-1"
       >
         {TABS.map((t) => {
           const active = tab === t.id
@@ -34,7 +34,7 @@ export default function DisorderDetail({ d }) {
               aria-controls={`tab-panel-${t.id}`}
               onClick={() => setTab(t.id)}
               className={
-                'whitespace-nowrap border-b-2 px-1.5 py-2.5 text-[11px] transition ' +
+                'whitespace-nowrap border-b-2 px-2 py-2.5 text-[12px] transition ' +
                 (active
                   ? 'border-accent font-semibold text-ink'
                   : 'border-transparent font-medium text-ink-soft hover:text-ink')
