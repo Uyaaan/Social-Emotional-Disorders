@@ -52,13 +52,23 @@ export default function DisorderDetail({ d }) {
         {tab === 'strategies' && <AccordionList items={d.strategies || []} a={a} kind="strategies" />}
         {tab === 'materials' && <MaterialsTab items={d.instructionalMaterials || []} a={a} />}
         {tab === 'accommodations' && (
-          <div className="flex flex-col gap-3.5">
+          <div className="flex flex-col gap-4">
             {d.assessment && (
-              <div className="rounded-2xl border border-border bg-surface p-4">
-                <p className="text-[14px] leading-relaxed text-ink">{d.assessment}</p>
+              <div>
+                <h4 className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
+                  Assessment
+                </h4>
+                <div className="rounded-2xl border border-border bg-surface p-4">
+                  <p className="text-[14px] leading-relaxed text-ink">{d.assessment}</p>
+                </div>
               </div>
             )}
-            <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
+            <div>
+              <h4 className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-ink-soft">
+                Accommodations
+              </h4>
+              <AccordionList items={d.accommodations || []} a={a} kind="accommodations" />
+            </div>
           </div>
         )}
         {tab === 'forteachers' && <ForTeachersTab forTeachers={d.forTeachers} a={a} />}
