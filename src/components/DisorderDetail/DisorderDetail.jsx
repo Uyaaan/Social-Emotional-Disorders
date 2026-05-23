@@ -10,7 +10,7 @@ const TABS = [
   { id: 'materials', label: 'Materials' },
   { id: 'assessment', label: 'Assessment' },
   { id: 'accommodations', label: 'Accommodations' },
-  { id: 'forteachers', label: 'For Teachers' },
+  { id: 'forteachers', label: 'Teachers' },
 ]
 
 export default function DisorderDetail({ d }) {
